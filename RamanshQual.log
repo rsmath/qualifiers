@@ -1,0 +1,1017 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  13 OCT 2025 17:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./RamanshQual.tex
+(RamanshQual.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/home/ramansh/.miktex/texmfs/install/tex/latex/exam/exam.cls
+Document Class: exam 2023/07/09 Version 2.704 by Philip Hirschhorn
+(/home/ramansh/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/home/ramansh/.miktex/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+\@extrawidth=\skip51
+\@rightmargin=\skip52
+\@extrahead=\skip53
+\@extrafoot=\skip54
+\run@exhd=\skip55
+\fp@exhd=\skip56
+\run@exft=\skip57
+\fp@exft=\skip58
+\covrun@exhd=\skip59
+\covfp@exhd=\skip60
+\covrun@exft=\skip61
+\covfp@exft=\skip62
+\c@num@coverpages=\count283
+\c@latest@ques=\count284
+\c@ques@end=\count285
+\c@last@object=\count286
+\c@incmp@ques=\count287
+\c@next@ques=\count288
+\c@next@page=\count289
+\c@tmp@hlfcntr=\count290
+\c@ifpos@cntr=\count291
+\c@question=\count292
+\c@partno=\count293
+\c@subpart=\count294
+\c@subsubpart=\count295
+\c@choice=\count296
+\c@numpoints=\count297
+\c@numbonuspoints=\count298
+\c@pointsof@thisquestion=\count299
+\c@bonuspointsof@thisquestion=\count300
+\c@numquestions=\count301
+\c@numparts=\count302
+\c@numsubparts=\count303
+\c@numsubsubparts=\count304
+\c@Curr@Page=\count305
+\c@@pagepoints=\count306
+\c@@pagebonuspoints=\count307
+\c@pageof@pagepoints=\count308
+\c@pageof@pagebonuspoints=\count309
+\c@latest@points=\count310
+\c@latest@bonuspoints=\count311
+\pageinfo@commands=\toks17
+\temp@toks=\toks18
+\pagepoint@commands=\toks19
+\point@toks=\toks20
+\c@ques@object=\count312
+\marginpointssep=\skip63
+\rightpointsmargin=\skip64
+\choice@toks=\toks21
+\answerlinelength=\skip65
+\answerskip=\skip66
+\answerclearance=\skip67
+\fillinlinelength=\skip68
+\linefillheight=\skip69
+\linefillthickness=\skip70
+\dottedlinefillheight=\skip71
+\gridsize=\skip72
+\gridlinewidth=\skip73
+\minboxheight=\skip74
+\c@@iterator=\count313
+\@cellwidth=\skip75
+\c@tbl@points=\count314
+\c@tbl@bonuspoints=\count315
+\c@pq@index=\count316
+\c@pq@index@pts=\count317
+\c@pq@index@bpts=\count318
+\c@num@cols=\count319
+\c@num@rows=\count320
+\c@current@row=\count321
+\c@cols@done=\count322
+\c@exam@saved@eqnum=\count323
+\exam@box=\box53
+\saved@totalleftmargin=\dimen149
+\@sollistdepth=\count324
+\exam@FrameRule=\dimen150
+\exam@FrameSep=\dimen151
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip76
+
+For additional information on amsmath, use the `?' option.
+(/home/ramansh/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen152
+))
+(/home/ramansh/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen153
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count325
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count326
+\leftroot@=\count327
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count328
+\DOTSCASE@=\count329
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen154
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count330
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count331
+\dotsspace@=\muskip17
+\c@parentequation=\count332
+\dspbrk@lvl=\count333
+\tag@help=\toks23
+\row@=\count334
+\column@=\count335
+\maxfields@=\count336
+\andhelp@=\toks24
+\eqnshift@=\dimen155
+\alignsep@=\dimen156
+\tagshift@=\dimen157
+\tagwidth@=\dimen158
+\totwidth@=\dimen159
+\lineht@=\dimen160
+\@envbody=\toks25
+\multlinegap=\skip77
+\multlinetaggap=\skip78
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/home/ramansh/.miktex/texmfs/install/tex/latex/minted/minted.sty
+Package: minted 2025/05/14 v3.7.0 Yet another Pygments shim for LaTeX
+
+(/home/ramansh/.miktex/texmfs/install/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(/home/ramansh/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+
+(/home/ramansh/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)))
+(/home/ramansh/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count337
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2025/05/29 v1.13.2 fvextra - extensions and patches for fancyv
+rb
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2025/07/28 4.6 verbatim text (tvz,hv)
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks27
+)
+\FV@CodeLineNo=\count338
+\FV@InFile=\read2
+\FV@TabBox=\box56
+\c@FancyVerbLine=\count339
+\FV@StepNumber=\count340
+\FV@OutFile=\write3
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/lineno/lineno.sty
+Package: lineno 2025/05/13 line numbers on paragraphs v5.5
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count341
+\output=\toks28
+\linenoprevgraf=\count342
+\linenumbersep=\dimen161
+\linenumberwidth=\dimen162
+\c@linenumber=\count343
+\c@pagewiselinenumber=\count344
+\c@LN@truepage=\count345
+\c@internallinenumber=\count346
+\c@internallinenumbers=\count347
+\quotelinenumbersep=\dimen163
+\bframerule=\dimen164
+\bframesep=\dimen165
+\bframebox=\box57
+\@LN@amsmath@ams@eqpen=\count348
+)
+\c@FancyVerbWriteLine=\count349
+\c@FancyVerbBufferLine=\count350
+\c@FV@TrueTabGroupLevel=\count351
+\c@FV@TrueTabCounter=\count352
+\FV@TabBox@Group=\box58
+\FV@bgcolorstructbox=\box59
+\FV@TmpLength=\skip79
+\c@FV@HighlightLinesStart=\count353
+\c@FV@HighlightLinesStop=\count354
+\FV@LoopCount=\count355
+\FV@NCharsBox=\box60
+\FV@BreakIndent=\dimen166
+\FV@BreakIndentNChars=\count356
+\FV@BreakSymbolSepLeft=\dimen167
+\FV@BreakSymbolSepLeftNChars=\count357
+\FV@BreakSymbolSepRight=\dimen168
+\FV@BreakSymbolSepRightNChars=\count358
+\FV@BreakSymbolIndentLeft=\dimen169
+\FV@BreakSymbolIndentLeftNChars=\count359
+\FV@BreakSymbolIndentRight=\dimen170
+\FV@BreakSymbolIndentRightNChars=\count360
+\c@FancyVerbLineBreakLast=\count361
+\FV@LineBox=\box61
+\FV@LineIndentBox=\box62
+\c@FV@BreakBufferDepth=\count362
+\FV@LineWidth=\dimen171
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/latex2pydata/latex2pydata.sty
+Package: latex2pydata 2025/03/26 v0.6.0 latex2pydata - write data to file in Py
+thon literal format
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.te
+x
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeyslibraryf
+iltered.code.tex
+\pgfkeys@tmptoks=\toks31
+)))
+(/home/ramansh/.miktex/texmfs/install/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks32
+\pgfopts@list@add@b@toks=\toks33
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count363
+\float@exts=\toks34
+\float@box=\box63
+\@float@everytoks=\toks35
+\@floatcapt=\box64
+)
+\c@minted@FancyVerbLineTemp=\count364
+\@float@every@listing=\toks36
+\c@listing=\count365
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/soul/soul.sty
+Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+
+(/home/ramansh/.miktex/texmfs/install/tex/generic/soul/soul-ori.sty
+Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+\SOUL@word=\toks37
+\SOUL@lasttoken=\toks38
+\SOUL@syllable=\toks39
+\SOUL@cmds=\toks40
+\SOUL@buffer=\toks41
+\SOUL@token=\toks42
+\SOUL@syllgoal=\dimen172
+\SOUL@syllwidth=\dimen173
+\SOUL@charkern=\dimen174
+\SOUL@hyphkern=\dimen175
+\SOUL@dimen=\dimen176
+\SOUL@dimeni=\dimen177
+\SOUL@minus=\count366
+\SOUL@comma=\count367
+\SOUL@apo=\count368
+\SOUL@grave=\count369
+\SOUL@spaceskip=\skip80
+\SOUL@ttwidth=\dimen178
+\SOUL@uldp=\dimen179
+\SOUL@ulht=\dimen180
+))
+(/home/ramansh/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/ramansh/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+(/home/ramansh/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.
+tex
+\pgfutil@everybye=\toks43
+\pgfutil@tempdima=\dimen181
+\pgfutil@tempdimb=\dimen182
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.d
+ef
+\pgfutil@abb=\box65
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/ramansh/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen183
+\Gin@req@width=\dimen184
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.t
+ex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@x=\dimen185
+\pgf@y=\dimen186
+\pgf@xa=\dimen187
+\pgf@ya=\dimen188
+\pgf@xb=\dimen189
+\pgf@yb=\dimen190
+\pgf@xc=\dimen191
+\pgf@yc=\dimen192
+\pgf@xd=\dimen193
+\pgf@yd=\dimen194
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count370
+\c@pgf@countb=\count371
+\c@pgf@countc=\count372
+\c@pgf@countd=\count373
+\t@pgf@toka=\toks44
+\t@pgf@tokb=\toks45
+\t@pgf@tokc=\toks46
+\pgf@sys@id@count=\count374
+ (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdftex
+.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common
+-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpat
+h.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count375
+\pgfsyssoftpath@bigbuffer@items=\count376
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotoco
+l.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (/home/ramansh/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.t
+ex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+ (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.t
+ex
+\pgfmath@dimen=\dimen195
+\pgfmath@count=\count377
+\pgfmath@box=\box66
+\pgfmath@toks=\toks47
+\pgfmath@stack@operand=\toks48
+\pgfmath@stack@operation=\toks49
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.cod
+e.tex)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
+ic.code.tex)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.tri
+gonometric.code.tex)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ran
+dom.code.tex)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.com
+parison.code.tex)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
+e.code.tex)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.rou
+nd.code.tex)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.mis
+c.code.tex)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.int
+egerarithmetics.code.tex)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.te
+x
+\c@pgfmathroundto@lastzeros=\count378
+)) (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.
+code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen196
+\pgf@picmaxx=\dimen197
+\pgf@picminy=\dimen198
+\pgf@picmaxy=\dimen199
+\pgf@pathminx=\dimen256
+\pgf@pathmaxx=\dimen257
+\pgf@pathminy=\dimen258
+\pgf@pathmaxy=\dimen259
+\pgf@xx=\dimen260
+\pgf@xy=\dimen261
+\pgf@yx=\dimen262
+\pgf@yy=\dimen263
+\pgf@zx=\dimen264
+\pgf@zy=\dimen265
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathcon
+struct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen266
+\pgf@path@lasty=\dimen267
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusa
+ge.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen268
+\pgf@shorten@start@additional=\dimen269
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.
+code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box67
+\pgf@hbox=\box68
+\pgf@layerbox@main=\box69
+\pgf@picture@serial@count=\count379
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphic
+state.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen270
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransfo
+rmations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen271
+\pgf@pt@y=\dimen272
+\pgf@pt@temp=\dimen273
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.c
+ode.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects
+.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathpro
+cessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.
+code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen274
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.c
+ode.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen275
+\pgf@sys@shading@range@num=\count380
+\pgf@shadingcount=\count381
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.c
+ode.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexterna
+l.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box70
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.
+code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretranspa
+rency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepattern
+s.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.cod
+e.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.c
+ode.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box71
+)
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.cod
+e.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
+on-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen276
+\pgf@nodesepend=\dimen277
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
+on-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/home/ramansh/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
+(/home/ramansh/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen278
+\pgffor@skip=\dimen279
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
+))
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.c
+ode.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryploth
+andlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count382
+\pgfplotmarksize=\dimen280
+)
+\tikz@lastx=\dimen281
+\tikz@lasty=\dimen282
+\tikz@lastxsaved=\dimen283
+\tikz@lastysaved=\dimen284
+\tikz@lastmovetox=\dimen285
+\tikz@lastmovetoy=\dimen286
+\tikzleveldistance=\dimen287
+\tikzsiblingdistance=\dimen288
+\tikz@figbox=\box72
+\tikz@figbox@bg=\box73
+\tikz@tempbox=\box74
+\tikz@tempbox@bg=\box75
+\tikztreelevel=\count383
+\tikznumberofchildren=\count384
+\tikznumberofcurrentchild=\count385
+\tikz@fig@count=\count386
+
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.c
+ode.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count387
+\pgfmatrixcurrentcolumn=\count388
+\pgf@matrix@numberofcolumns=\count389
+)
+\tikz@expandcount=\count390
+
+(/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/home/ramansh/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip81
+\enit@outerparindent=\dimen289
+\enit@toks=\toks52
+\enit@inbox=\box76
+\enit@count@id=\count391
+\enitdp@description=\count392
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/graphics/epsfig.sty
+Package: epsfig 2024/01/14 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen290
+\epsfysize=\dimen291
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks53
+\thm@bodyfont=\toks54
+\thm@headfont=\toks55
+\thm@notefont=\toks56
+\thm@headpunct=\toks57
+\thm@preskip=\skip82
+\thm@postskip=\skip83
+\thm@headsep=\skip84
+\dth@everypar=\toks58
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/home/ramansh/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(/home/ramansh/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)))
+(/home/ramansh/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/home/ramansh/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count393
+\Gm@cntv=\count394
+\c@Gm@tempcnt=\count395
+\Gm@bindingoffset=\dimen292
+\Gm@wd@mp=\dimen293
+\Gm@odd@mp=\dimen294
+\Gm@even@mp=\dimen295
+\Gm@layoutwidth=\dimen296
+\Gm@layoutheight=\dimen297
+\Gm@layouthoffset=\dimen298
+\Gm@layoutvoffset=\dimen299
+\Gm@dimlist=\toks59
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/ramansh/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen300
+\lightrulewidth=\dimen301
+\cmidrulewidth=\dimen302
+\belowrulesep=\dimen303
+\belowbottomsep=\dimen304
+\aboverulesep=\dimen305
+\abovetopsep=\dimen306
+\cmidrulesep=\dimen307
+\cmidrulekern=\dimen308
+\defaultaddspace=\dimen309
+\@cmidla=\count396
+\@cmidlb=\count397
+\@aboverulesep=\dimen310
+\@belowrulesep=\dimen311
+\@thisruleclass=\count398
+\@lastruleclass=\count399
+\@thisrulewidth=\dimen312
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip85
+\L@UnitsRaiseTextstyle=\skip86
+\L@UnitsRaiseScriptstyle=\skip87
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count400
+\calc@Bcount=\count401
+\calc@Adimen=\dimen313
+\calc@Bdimen=\dimen314
+\calc@Askip=\skip88
+\calc@Bskip=\skip89
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count402
+\calc@Cskip=\skip90
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count403
+\l_MT_multwidth_dim=\dimen315
+\origjot=\skip91
+\l_MT_shortvdotswithinadjustabove_dim=\dimen316
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen317
+\l_MT_above_intertext_sep=\dimen318
+\l_MT_below_intertext_sep=\dimen319
+\l_MT_above_shortintertext_sep=\dimen320
+\l_MT_below_shortintertext_sep=\dimen321
+\xmathstrut@box=\box77
+\xmathstrut@dim=\dimen322
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen323
+\captionmargin=\dimen324
+\caption@leftmargin=\dimen325
+\caption@rightmargin=\dimen326
+\caption@width=\dimen327
+\caption@indent=\dimen328
+\caption@parindent=\dimen329
+\caption@hangindent=\dimen330
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count404
+\c@continuedfloat=\count405
+Package caption Info: float package is loaded.
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen331
+\ar@mcellbox=\box78
+\extrarowheight=\dimen332
+\NC@list=\toks60
+\extratabsurround=\skip92
+\backup@length=\skip93
+\ar@cellbox=\box79
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen333
+\TX@old@table=\dimen334
+\TX@old@col=\dimen335
+\TX@target=\dimen336
+\TX@delta=\dimen337
+\TX@cols=\count406
+\TX@ftn=\toks61
+)
+(/home/ramansh/.miktex/texmfs/install/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `amsthm' support loaded on input line 3026.
+)
+==> First Aid for cleveref.sty applied!
+(/home/ramansh/.miktex/texmfs/install/tex/latex/arydshln/arydshln.sty
+Package: arydshln 2019/02/21 v1.76 
+\dashlinedash=\dimen338
+\dashlinegap=\dimen339
+\adl@box=\box80
+\adl@height=\dimen340
+\adl@heightsave=\dimen341
+\adl@depth=\dimen342
+\adl@depthsave=\dimen343
+\adl@finaldepth=\dimen344
+\adl@columns=\count407
+\adl@ncol=\count408
+\adl@currentcolumn=\count409
+\adl@currentcolumnsave=\count410
+\adl@totalheight=\count411
+\adl@totalheightsave=\count412
+\adl@dash=\count413
+\adl@gap=\count414
+\adl@cla=\count415
+\adl@clb=\count416
+\adl@everyvbox=\toks62
+\adl@LTpagetotal=\dimen345
+)
+==> First Aid for arydshln.sty applied!
+(/home/ramansh/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count417
+) (RamanshQual.aux)
+\openout1 = `RamanshQual.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+
+(/home/ramansh/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count418
+\scratchdimen=\dimen346
+\scratchbox=\box81
+\nofMPsegments=\count419
+\nofMParguments=\count420
+\everyMPshowfont=\toks63
+\MPscratchCnt=\count421
+\MPscratchDim=\dimen347
+\MPnumerator=\count422
+\makeMPintoPDFobject=\count423
+\everyMPtoPDFconversion=\toks64
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 614.295pt, 108.405pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=614.295pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-30.0pt
+* \headheight=15.0pt
+* \headsep=15.0pt
+* \topskip=12.0pt
+* \footskip=29.0pt
+* \marginparwidth=36.135pt
+* \marginparsep=5.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 161
+.
+(/home/ramansh/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 161
+.
+
+(/home/ramansh/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: No \author given.
+
+
+Overfull \hbox (68.59859pt too wide) in paragraph at lines 183--187
+\OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 X \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 X
+[]; [] ; X[]\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 Y \OT1/cmr/m/n/12 = (\OML/cmm
+/m/it/12 Y[]; [] ; Y[]\OT1/cmr/m/n/12 )$, and $\OML/cmm/m/it/12 f \OMS/cmsy/m/n
+/12 ^^N \OML/cmm/m/it/12 g\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 )$
+ de-notes the vec-tor $(\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 g\O
+T1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 ; [] ; f\
+OT1/cmr/m/n/12 (\OML/cmm/m/it/12 g\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr
+/m/n/12 )))$.
+ []
+
+(answers/first.tex
+
+[1
+
+{/home/ramansh/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (10.5213pt too wide) in paragraph at lines 29--31
+\OT1/cmr/m/n/12 For brevity, we use $\OT1/cmr/bx/n/12 g[]$ \OT1/cmr/m/n/12 to d
+e-note $\OML/cmm/m/it/12 g\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 
+) = []$, where $\OT1/cmr/bx/n/12 K\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]; X\OT1/
+cmr/m/n/12 )$
+ []
+
+)
+
+[2]
+
+[3] (RamanshQual.bbl
+
+[4])
+
+[5]
+This exam contains 5 questions with 7 parts, 0 subparts, and 0 subsubparts.
+runsystem(latexminted cleantemp  --timestamp 20251013172627 ABAD9D55E66734B248D
+3AE60F45DADA3)...disabled (restricted).
+
+(RamanshQual.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 24430 strings out of 468131
+ 509049 string characters out of 5437308
+ 1042094 words of memory out of 5000000
+ 52673 multiletter control sequences out of 15000+600000
+ 636731 words of font info for 78 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 102i,16n,107p,759b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.p
+fb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.
+pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12
+.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6
+.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17
+.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.
+pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.p
+fb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12
+.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt1
+2.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on /home/ramansh/qualifiers/RamanshQual.pdf (5 pages, 188372 byt
+es).
+PDF statistics:
+ 96 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

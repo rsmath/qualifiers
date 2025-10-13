@@ -1,0 +1,247 @@
+\documentclass[12pt]{exam}
+%\documentclass[answers,addpoints,12pt]{exam}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[gray]{xcolor}
+\usepackage{amsmath,amssymb}
+\usepackage{minted}
+\usepackage{soul}
+\usepackage{tikz}
+\usepackage[shortlabels]{enumitem}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{url}
+\usepackage{epstopdf}
+\usepackage[top=1in, bottom=1.5in, left=1in, right=1in]{geometry}
+
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{mathtools}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{cleveref}
+\usepackage{arydshln}
+
+\def\h{\mathfrak{h}}
+\def\V{\mathfrak{V}}
+\def\ve{\varepsilon}
+\def\low{\mathrm{low}}
+
+\def\ve{\varepsilon}
+\def\d{\mathfrak{d}}
+\def\db{{\bf d}}
+\def\P{\mathbb{P}}
+\def\R{\mathbb{R}}
+\def\Rc{\mathcal{R}}
+\def\cT{\mathcal{T}}
+\def\cN{\mathcal{N}}
+\def\S{\mathcal{S}}
+\def\cP{\mathcal{P}}
+\def\K{\kappa}
+\def\Y{{\bf\mathcal{Y}}}
+\def\Z{\mathcal{Z}}
+\def\E{\mathbb{E}}
+\def\Tor{\mathbb{T}}
+\def\De{\mathbb{De}}
+\def\Inv{\operatorname{Inv}}
+\def\re{\text{re}}
+\def\im{\text{im}}
+
+\def\M{\mathcal{M}}
+\def\Me{\mathbb{\mathcal{M}}}
+\def\Mes{\mathcal{M}}
+\def\C{{\mathbb{C}}}
+\def\Pr{\mathcal{P}}
+\def\cC{\mathcal{C}}
+\def\sk{{\mathcal{K}}}
+\def\sy{{\mathcal{S}}}
+\def\cR{\mathcal{R}}
+\def\B{\mathcal{B}}
+\def\Bf{\mathfrak{B}}
+
+\def\bx{\mathbf{x}}
+\def\by{\mathbf{y}}
+\def\bc{\mathbf{c}}
+\def\bd{\mathbf{d}}
+\def\bg{\mathbf{g}}
+
+\def\ED{\mathcal{E}}
+\def\Rh{\mathcal{R}_h}
+\def\Rht{\mathcal{R}_{h,t}}
+\def\er{\mathcal{E}}
+
+\def\f{\mathcal{f}}
+
+\def\one{\mathrm{I}}
+\def\two{\mathrm{II}}
+
+\def\St{\mathcal{S}}
+\def\X{{\bf\mathcal{X}}}
+\def\F{\mathcal{F}}
+\def\G{\mathfrak{G}}
+\def\D{\mathcal{D}}
+\def\U{\mathcal{U}}
+\def\I{\mathcal{I}}
+\def\J{\mathcal{J}}
+\def\L{\mathcal{L}}
+\def\A{\mathcal{A}}
+\def\W{\mathfrak{W}}
+\def\cW{\mathcal{W}}
+\def\Q{\mathfrak{Q}}
+\def\Qm{{\bf Q}}
+\def\H{\mathcal{H}}
+\def\T{\mathcal{T}}
+\def\Td{\top}
+\def\O{\mathcal{O}}
+\def\N{\mathcal{N}}
+\newcommand{\todo}{{\color[rgb]{1,0.1,0.1} {\bf TO DO:}}}
+\def\restrict#1{\raise-.5ex\hbox{\ensuremath|}_{#1}}
+
+\def\<{\big\langle}
+\def\>{\big\rangle}
+\def\Img{\operatorname{Im}}
+\def\Ker{\operatorname{Ker}}
+\def\Cond{\operatorname{Cond}}
+\def\Osc{\operatorname{Osc}}
+\def\Proj{\operatorname{Proj}}
+\def\Vol{\operatorname{Vol}}
+\def\diiv{\operatorname{div}}
+\def\dist{\operatorname{dist}}
+\def\Var{\operatorname{Var}}
+\def\Tr{\operatorname{Tr}}
+\def\Trun{\operatorname{Trun}}
+\def\Cov{\operatorname{Cov}}
+\def\Card{\operatorname{Card}}
+\def\det{\operatorname{det}}
+\def\Hess{\operatorname{Hess}}
+\def\diam{\operatorname{diam}}
+\def\sym{{\operatorname{sym}}}
+\def\diag{{\operatorname{diag}}}
+\def\argmin{{\operatorname{argmin}}}
+\def\sob{{\textrm{sob}}}
+\def\lsob{{\textrm{l}}}
+\def\esssup{{\operatorname{esssup}}}
+\def\supp{{\operatorname{support}}}
+\def\support{{\operatorname{supp}}}
+\def\dim{{\operatorname{dim}}}
+\def\atan{{\operatorname{atan}}}
+\def\sgn{{\operatorname{sgn}}}
+\def\Span{\operatorname{span}}
+\def\Pr{\operatorname{Pr}}
+\def\s{s}
+\def\pot{\mathrm{pot}}
+\def\curl{\mathrm{curl}}
+\def\Vlg{\mathfrak{V}}
+\def\s{\sigma}
+\def\card{{\#}}
+\def\opeps{-\diiv(a_\ve\nabla)}
+\newcommand{\op}[1]{-\diiv(a\nabla #1)}
+
+\def\uin{u^{\rm in}}
+\def\dx{\,{\rm d}x}
+\def\dy{\,{\rm d}y}
+\def\pp{\partial}
+\def\loc{{\rm loc}}
+\def\ext{{\rm ext}}
+\def\app{{\mathrm{app}}}
+
+
+%\usetikzlibrary{positioning,arrows}
+%\tikzset{main node/.style={circle,fill=blue!20,draw,minimum size=1cm,inner sep=0pt}}
+ 
+\begin{document}
+\title{Ramansh Sharma Written Qualifying Exam}
+\date{}
+\maketitle
+
+
+\noindent Read the questions carefully. Follow the indicated page lengths. Feel free to cite references. You have one week. 
+
+\begin{questions}
+\question Let $0<m<d_1,d_2<\infty$ be integers.  
+Let $(X_1,Y_1),\dots,(X_N,Y_N)$ be data points in $\R^{d_1}\times\R^{d_2}$.  
+
+We want to derive a kernelized autoencoder.  
+Given a kernel $K$ on $\R^{d_1}$ with RKHS $\H_K$ and a kernel $\Gamma$ on $\R^m$ with RKHS $\H_\Gamma$, we seek 
+\[
+  g=(g_1,\dots,g_m),\quad g_i\in \H_K, 
+  \qquad 
+  f=(f_1,\dots,f_{d_2}),\quad f_j\in\H_\Gamma,
+\]
+that minimize
+\begin{equation}\label{eqautoencoder}
+\min_{g_1,\ldots,g_m \in \H_K,\; f_1,\ldots,f_{d_2} \in \H_\Gamma} 
+\sum_{i=1}^m \|g_i\|_K^2
++ \sum_{j=1}^{d_2}\|f_j\|_\Gamma^2
++ \lambda \,\big\| f\circ g(X)-Y\big\|_2^2,
+\end{equation}
+where $X=(X_1,\ldots,X_N)$, $Y=(Y_1,\ldots,Y_N)$, and $f\circ g(X)$ denotes the vector $(f(g(X_1)),\dots,f(g(X_N)))$.  
+Reduce \eqref{eqautoencoder} to a finite-dimensional optimization problem.\\
+{\bf Recommended answer length: less than a page. AI/LLM not allowed.}
+
+\input{answers/first}
+
+\question Consider the setting of operator learning, with an oracle/exact operator $G$:
+\begin{align*}
+  A \ni a \stackrel{G}{\mapsto} u \in U, \hskip 10pt
+  G \in B(A; U), \hskip 5pt A = A(D_a; \R^a), \hskip 5pt U = U(D_u; \R^u),
+\end{align*}
+where $A$ and $U$ are function spaces (i.e., appropriate measure spaces, such as Hilbert or Banach spaces), with $a, u \in \N$. E.g., $A$ is a space of functions mapping some domain $D_a$ to $\R^a$, where $D_a$ is a subset of a Euclidean space. We likewise assume $B$ is some measurable space of mappings (operators) that map elements in $A$ to elements in $U$. We consider the \textit{supervised} learning setting, where $G$ is approximated through (possibly noisy) input-output pairs.
+
+Informally, a \textit{neural operator} is a model class mapping class $A$ to $U$ that is constructed through iterative applications of affine global operators with componentwise/local nonlinear (``activation'') operators. Neural operator model classes with finite encodings are of particular interest, as they represent a feasible space of computable maps. The concept of \textit{universal approximation} is popular to investigate in neural operators, with the goal to establish that, e.g., given an arbitrary $G$ and tolerance $\epsilon$, there is a finite-encoding neural operator that is $\epsilon$-close to $G$.
+
+Summarize the current state of universal approximation results/theorems in the literature, paying particular attention to pros and cons of these results (either individually or collectively). In particular, describe how (or if) one can use these universal approximation statements to guide computational construction of architectures. Propose a strategy to use some tools from existing methods for approximating functions over finite-dimensional spaces that might be used to provide more constructive and quantitatively rigorous methods for constructing neural operators.
+
+In your response, consider the following aspects:
+\begin{enumerate}
+  \item Provide a reasonable high-level survey of current universal approximation results. Theoretical precision is appreciated, but the main goal is to summarize overall strengths and weaknesses of approximability statements. It's not important to cite every single result on universal approximation for neural operators, but provide enough breadth of narrative to cover ``much'' of the literature.
+  \item Identify the practical utility of universal approximation results in the computational construction of neural operators. I.e., how would you use these results to actually construct computational architectures? (Are these results useful for that purpose?)
+  \item Describe or propose how one might leverage existing quantitative results on approximation of functions to augment the current neural operator approximation theory. (Here, ``quantitative'' refers to actual, fairly precise rates of approximability or convergence for finite-dimensional approximation of functions.) In particular, how might one attempt to port quantitative results from function approximation to operators? What challenges require new investigations to address? It's perhaps most useful to narrow this discussion to leveraging a particular class/type of function approximation results, rather than attempting to broadly consider existing results on function approximation.
+\end{enumerate}
+{\bf Recommended answer length: 3-5 pages. AI/LLM not allowed.}
+
+
+\question {\bf I will ask two questions both related to your work. Answer one in detail (~1 page) and one in short (~1/2 page) (your choice).}
+
+\begin{parts}
+\part One of the challenges as I understand in SciML applications is that your error requirements are much more stringent than those in ML applications. For certain kinds of ML models, there are so-called "scaling laws" (e.g., \url{https://arxiv.org/pdf/2001.08361}). Go over the paper above, summarizing the main results. Would you expect analogous results for SciML applications (e.g., learning very simple PDEs' solutions), and if so, do you expect to drive the error to an arbitrarily small quantity? This is an open ended question, so please include references to existing work.
+
+\part Study one of the early papers on "in context" learning, specifically: \url{https://arxiv.org/pdf/2208.01066}. While SciML papers do not think about what they do as ICL, expecting a model to learn a solution to a ``new'' PDE is quite similar in spirit. Go over the paper above and summarize the main results. There have been many follow up works to the paper above claiming that the distributions are important, etc., but one interesting paper is: \url{https://arxiv.org/pdf/2306.09927}.
+\emph{Skim} the main results, but especially look at Section 4.2. Are you aware of analogous results in the SciML area? Does the distribution over boundary conditions, etc. matter for learnability?
+\end{parts}
+
+\question
+
+\begin{parts}
+\part Please introduce and summarize existing operator learning methods. Please give some categories, and summarize pros and cons for each category. \\
+{\bf  Recommendation: no less than 2 pages.}
+\part What do you think about the future of operator learning? You can explain whatever thoughts you have, positive, negative, and future development direction, etc. 
+{\bf Recommendation: no less than 1 page.} 
+\end{parts}
+
+\question Consider partition of unity (PoU) kernel methods in the context of divergence-free approximation. These methods allow one to scale global interpolation to very large numbers of points without a loss of computational efficiency. However, there are some specific challenges to applying PoU methods to divergence-free approximations. {\bf Note that we are not talking about operator learning, but just function approximation/interpolation}.\\
+{\bf No AI/LLM allowed}.
+
+\begin{parts}
+\part It is quite straightforward to use a global divergence-free kernel for interpolation. However, in the PoU context, this is not straightforward at all. \emph{Show why} mathematically. \\
+{\bf Recommendation: No more than 1/2 a page}.
+
+\part Drake, Fuselier, and Wright present an approach in \url{https://arxiv.org/abs/2010.15898} that works for 2D approximations. Summarize their approach. What is the \emph{primary mathematical} difficulty in applying their technique to 3D problems? Hint:It relates to the nature of the div-free potentials in 3D, Eq 2.10.\\
+{\bf Recommendation: No more than 1 page}.
+
+\part How would you use machine learning (ML) to overcome these difficulties? Derive a new ML-based PoU technique to do so that is also divergence-free by construction; describe the ML architecture, point out how it overcomes the issue with the Drake-Fuselier-Wright method, discuss training procedures and difficulties. Briefly connect it to your answer in part 1. Assume you already have a div-free approximant/interpolant on each patch.\\
+{\bf Recommendation: 1-2 pages}.
+\end{parts}
+
+\end{questions}
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
