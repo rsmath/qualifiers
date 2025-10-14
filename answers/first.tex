@@ -6,10 +6,10 @@ In order to reduce~\eqref{eqautoencoder} to a finite-dimensional problem, we hav
 g_i(\cdot) &= \sum\limits_{p=1}^{N} c^i_p K(\cdot, \bx_p), \\
 f_j(\cdot) &= \sum\limits_{k=1}^{m} d^j_k \Gamma(\cdot, \by_k),
 \end{align}
-where $i$ and $j$ denote the indices of the functions from the respective RKHS and $\bx \in \R^{d_1}, \by \in \R^m$ are arbitrary points in the respective domains of the kernels. Using the properties of symmetry and positive definiteness of reproducing kernels~\cite[Chapter 2.3]{fasshauer2015kernel}, and the forms of functions that belong to RKHS described above, we have the following,
+where $i$ and $j$ denote the indices of the functions from the respective RKHS and $\bx \in \R^{d_1}, \by \in \R^m$ are arbitrary points in the respective domains of the kernels. Using the properties of symmetry and positive definiteness of reproducing kernels~\cite[Chapter 2.3]{fasshauer2015kernel}, and the forms of functions that belong to RKHS described above, we have the following Hilbert space norms,
 \begin{align}
-\|g_i\|_K^2 &= \left\langle g_i, g_i \right\rangle_{\H_K} = \left\langle \sum\limits_{p=1}^{N} c^i_p K(\cdot, \bx_p), \sum\limits_{b=1}^{N} c^i_b K(\cdot, \bx_b) \right\rangle =  (\bc^i)^\Td \mathbf{K} \bc^i, \\
-\|f_j\|_\Gamma^2 &= \left\langle f_j, f_j \right\rangle_{\H_\Gamma} = \left\langle \sum\limits_{k=1}^{m} d^j_k \Gamma(\cdot, \by_k), \sum\limits_{t=1}^{m} d^j_t \Gamma(\cdot, \by_t) \right\rangle =  (\bd^j)^\Td \mathbf{\Gamma} \bd^j,
+\|g_i\|_K^2 &= \left\langle g_i, g_i \right\rangle_K = \left\langle \sum\limits_{p=1}^{N} c^i_p K(\cdot, \bx_p), \sum\limits_{b=1}^{N} c^i_b K(\cdot, \bx_b) \right\rangle =  (\bc^i)^\Td \mathbf{K} \bc^i, \\
+\|f_j\|_\Gamma^2 &= \left\langle f_j, f_j \right\rangle_{\Gamma} = \left\langle \sum\limits_{k=1}^{m} d^j_k \Gamma(\cdot, \by_k), \sum\limits_{t=1}^{m} d^j_t \Gamma(\cdot, \by_t) \right\rangle =  (\bd^j)^\Td \mathbf{\Gamma} \bd^j,
 \end{align}
 where, $\mathbf{K}$ and $\mathbf{\Gamma}$ are the full $(N\times N)$ and $(m\times m)$ kernel matrices respectively. The goal now is to rewrite~\eqref{eqautoencoder} as an optimization problem in terms of the expansion coefficients $\bc$ and $\bd$. We reformulate~\eqref{eqautoencoder} below,
 \begin{align}
@@ -19,19 +19,19 @@ where, $\mathbf{K}$ and $\mathbf{\Gamma}$ are the full $(N\times N)$ and $(m\tim
 + \lambda \sum\limits_{n=1}^{N} \left( \begin{bmatrix}
 f_1(g(X_n)) \\ 
 f_2(g(X_n)) \\ 
-\dots \\
+\vdots \\
 f_{d_2}(g(X_n))
 \end{bmatrix} - Y_n \right)^2, \\
 &\min_{\bc^1,\ldots,\bc^m,\; \bd^1,\ldots,\bd^{d_2}} 
 \sum_{i=1}^m (\bc^i)^\Td \mathbf{K} \bc^i
 + \sum_{j=1}^{d_2} (\bd^j)^\Td \mathbf{\Gamma} \bd^j
-+ \lambda \sum\limits_{n=1}^N \sum\limits_{j=1}^{d_2} \left( f_j(g(X_n)) - Y^j_n \right)^2. \label{eq:sumexpansion}
++ \lambda \sum\limits_{n=1}^N \sum\limits_{j=1}^{d_2} \left( f_j(g(X_n)) - Y^j_n \right)^2, \label{eq:sumexpansion}
 \end{align}
-For brevity, we use $\bg_n$ to denote $g(X_n) = \left(\mathbf{K}(X_n, X) \bc^1, \dots, \mathbf{K}(X_n, X) \bc^m \right)$, where $\mathbf{K}(X_n, X)$ is a column vector. Then,~\eqref{eq:sumexpansion} can be written as,
+where $X_n$ and $Y_n$ are the $n^{\text{th}}$ data points respectively. For brevity, we use $\bg_n$ to denote $g(X_n) = \left(\mathbf{K}(X_n, X) \bc^1, \dots, \mathbf{K}(X_n, X) \bc^m \right)$, where $\mathbf{K}(X_n, X)$ is a column vector. Further, let $\mathfrak{g} = (\bg_1, \bg_2, \dots, \bg_N)$. Then,~\eqref{eq:sumexpansion} can be written as,
 \begin{align}
 \min_{\bc^1,\ldots,\bc^m,\; \bd^1,\ldots,\bd^{d_2}} 
 \sum_{i=1}^m (\bc^i)^\Td \mathbf{K} \bc^i
 + \sum_{j=1}^{d_2} (\bd^j)^\Td \mathbf{\Gamma} \bd^j
-+ \lambda \sum\limits_{n=1}^N \sum\limits_{j=1}^{d_2} \left( \mathbf{\Gamma}(\bg_n, \bg_j) \bd_j - Y^j_n \right)^2. \label{eq:finitedimopt}
++ \lambda \sum\limits_{n=1}^N \sum\limits_{j=1}^{d_2} \left( \mathbf{\Gamma}(\bg_n, \mathfrak{g}) \bd_j - Y^j_n \right)^2. \label{eq:finitedimopt}
 \end{align}
 In the final form shown in~\eqref{eq:finitedimopt}, the optimization problem is with respect to the finite-dimensional expansion coefficients $(\bc^1, \dots, \bc^m)$ and $(\bd^1, \dots, \bd^{d_2})$.
