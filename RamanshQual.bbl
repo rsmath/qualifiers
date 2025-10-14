@@ -1,8 +1,64 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{biau2012analysis}
+G{\'e}rard Biau.
+\newblock Analysis of a random forests model.
+\newblock {\em The Journal of Machine Learning Research}, 13(1):1063--1095,
+  2012.
+
+\bibitem{de2022cost}
+Maarten~V de~Hoop, Daniel~Zhengyu Huang, Elizabeth Qian, and Andrew~M Stuart.
+\newblock The cost-accuracy trade-off in operator learning with neural
+  networks.
+\newblock {\em arXiv preprint arXiv:2203.13181}, 2022.
 
 \bibitem{fasshauer2015kernel}
 Gregory~E Fasshauer and Michael~J McCourt.
 \newblock {\em Kernel-based approximation methods using Matlab}, volume~19.
 \newblock World Scientific Publishing Company, 2015.
+
+\bibitem{kaplan2020scaling}
+Jared Kaplan, Sam McCandlish, Tom Henighan, Tom~B Brown, Benjamin Chess, Rewon
+  Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei.
+\newblock Scaling laws for neural language models.
+\newblock {\em arXiv preprint arXiv:2001.08361}, 2020.
+
+\bibitem{lanthaler2022error}
+Samuel Lanthaler, Siddhartha Mishra, and George~E Karniadakis.
+\newblock Error estimates for deeponets: A deep learning framework in infinite
+  dimensions.
+\newblock {\em Transactions of Mathematics and Its Applications}, 6(1):tnac001,
+  2022.
+
+\bibitem{liu2024neural}
+Hao Liu, Zecheng Zhang, Wenjing Liao, and Hayden Schaeffer.
+\newblock Neural scaling laws of deep relu and deep operator network: A
+  theoretical study.
+\newblock {\em arXiv preprint arXiv:2410.00357}, 2024.
+
+\bibitem{lu2019deeponet}
+Lu~Lu, Pengzhan Jin, and George~Em Karniadakis.
+\newblock Deeponet: Learning nonlinear operators for identifying differential
+  equations based on the universal approximation theorem of operators.
+\newblock {\em arXiv preprint arXiv:1910.03193}, 2019.
+
+\bibitem{radford2019language}
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya
+  Sutskever, et~al.
+\newblock Language models are unsupervised multitask learners.
+\newblock {\em OpenAI blog}, 1(8):9, 2019.
+
+\bibitem{tan2019efficientnet}
+Mingxing Tan and Quoc Le.
+\newblock Efficientnet: Rethinking model scaling for convolutional neural
+  networks.
+\newblock In {\em International conference on machine learning}, pages
+  6105--6114. PMLR, 2019.
+
+\bibitem{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock {\em Advances in neural information processing systems}, 30, 2017.
 
 \end{thebibliography}

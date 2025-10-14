@@ -184,7 +184,7 @@ that minimize
 where $X=(X_1,\ldots,X_N)$, $Y=(Y_1,\ldots,Y_N)$, and $f\circ g(X)$ denotes the vector $(f(g(X_1)),\dots,f(g(X_N)))$.  
 Reduce \eqref{eqautoencoder} to a finite-dimensional optimization problem.\\
 {\bf Recommended answer length: less than a page. AI/LLM not allowed.}
-
+%
 \input{answers/first}
 
 \question Consider the setting of operator learning, with an oracle/exact operator $G$:
@@ -205,7 +205,8 @@ In your response, consider the following aspects:
   \item Describe or propose how one might leverage existing quantitative results on approximation of functions to augment the current neural operator approximation theory. (Here, ``quantitative'' refers to actual, fairly precise rates of approximability or convergence for finite-dimensional approximation of functions.) In particular, how might one attempt to port quantitative results from function approximation to operators? What challenges require new investigations to address? It's perhaps most useful to narrow this discussion to leveraging a particular class/type of function approximation results, rather than attempting to broadly consider existing results on function approximation.
 \end{enumerate}
 {\bf Recommended answer length: 3-5 pages. AI/LLM not allowed.}
-
+%
+\input{answers/second}
 
 \question {\bf I will ask two questions both related to your work. Answer one in detail (~1 page) and one in short (~1/2 page) (your choice).}
 
@@ -215,6 +216,8 @@ In your response, consider the following aspects:
 \part Study one of the early papers on "in context" learning, specifically: \url{https://arxiv.org/pdf/2208.01066}. While SciML papers do not think about what they do as ICL, expecting a model to learn a solution to a ``new'' PDE is quite similar in spirit. Go over the paper above and summarize the main results. There have been many follow up works to the paper above claiming that the distributions are important, etc., but one interesting paper is: \url{https://arxiv.org/pdf/2306.09927}.
 \emph{Skim} the main results, but especially look at Section 4.2. Are you aware of analogous results in the SciML area? Does the distribution over boundary conditions, etc. matter for learnability?
 \end{parts}
+%
+\input{answers/third}
 
 \question
 
@@ -224,6 +227,8 @@ In your response, consider the following aspects:
 \part What do you think about the future of operator learning? You can explain whatever thoughts you have, positive, negative, and future development direction, etc. 
 {\bf Recommendation: no less than 1 page.} 
 \end{parts}
+%
+\input{answers/fourth}
 
 \question Consider partition of unity (PoU) kernel methods in the context of divergence-free approximation. These methods allow one to scale global interpolation to very large numbers of points without a loss of computational efficiency. However, there are some specific challenges to applying PoU methods to divergence-free approximations. {\bf Note that we are not talking about operator learning, but just function approximation/interpolation}.\\
 {\bf No AI/LLM allowed}.
@@ -238,6 +243,8 @@ In your response, consider the following aspects:
 \part How would you use machine learning (ML) to overcome these difficulties? Derive a new ML-based PoU technique to do so that is also divergence-free by construction; describe the ML architecture, point out how it overcomes the issue with the Drake-Fuselier-Wright method, discuss training procedures and difficulties. Briefly connect it to your answer in part 1. Assume you already have a div-free approximant/interpolant on each patch.\\
 {\bf Recommendation: 1-2 pages}.
 \end{parts}
+%
+\input{answers/fifth}
 
 \end{questions}
 

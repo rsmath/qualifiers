@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  13 OCT 2025 23:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  14 OCT 2025 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -941,8 +941,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 LaTeX Warning: No \author given.
 
-
-Overfull \hbox (68.59859pt too wide) in paragraph at lines 183--187
+(answers/first.tex
+Overfull \hbox (68.59859pt too wide) in paragraph at lines 183--2
 \OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 X \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 X
 []; [] ; X[]\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 Y \OT1/cmr/m/n/12 = (\OML/cmm
 /m/it/12 Y[]; [] ; Y[]\OT1/cmr/m/n/12 )$, and $\OML/cmm/m/it/12 f \OMS/cmsy/m/n
@@ -953,12 +953,12 @@ OT1/cmr/m/n/12 (\OML/cmm/m/it/12 g\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr
 /m/n/12 )))$.
  []
 
-(answers/first.tex
+
 
 [1
 
 {/home/ramansh/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 30.
+LaTeX Font Info:    Trying to load font information for U+euf on input line 29.
 
 
 (/home/ramansh/.miktex/texmfs/install/tex/latex/amsfonts/ueuf.fd
@@ -967,13 +967,34 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 
 [2]
 
-[3] (RamanshQual.bbl
+[3] (answers/second.tex)
 
-[4])
+[4] (answers/third.tex
 
-[5]
+[5])
+
+[6] (answers/fourth.tex)
+
+[7] (answers/fifth.tex)
+
+[8] (RamanshQual.bbl
+
+! LaTeX Error: \mathcal allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60   Aidan~N Gomez, {\L
+                         }ukasz Kaiser, and Illia Polosukhin.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+
+[9]
 This exam contains 5 questions with 7 parts, 0 subparts, and 0 subsubparts.
-runsystem(latexminted cleantemp  --timestamp 20251013232045 ABAD9D55E66734B248D
+runsystem(latexminted cleantemp  --timestamp 20251014154741 ABAD9D55E66734B248D
 3AE60F45DADA3)...disabled (restricted).
 
 (RamanshQual.aux)
@@ -983,13 +1004,13 @@ L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24445 strings out of 468131
- 509344 string characters out of 5437308
- 1042094 words of memory out of 5000000
- 52683 multiletter control sequences out of 15000+600000
+ 24488 strings out of 468131
+ 510304 string characters out of 5437308
+ 1038094 words of memory out of 5000000
+ 52714 multiletter control sequences out of 15000+600000
  637439 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,17n,107p,759b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,17n,107p,1965b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.p
 fb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.p
 fb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.
@@ -1007,10 +1028,10 @@ pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12
 2.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/euler/e
 ufm10.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on /home/ramansh/qualifiers/RamanshQual.pdf (5 pages, 192715 byt
+Output written on /home/ramansh/qualifiers/RamanshQual.pdf (9 pages, 206667 byt
 es).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
+ 115 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
