@@ -1,11 +1,11 @@
 {\bf Answer:}
 
-In order to reduce~\eqref{eqautoencoder} to a finite-dimensional problem, we have to rewrite the functions $(g_1,\dots,g_m)$ and $(f_1,\dots,f_{d_2})$ in terms of their respective reproducing kernels. We assume kernels $K$ and $\Gamma$ are real valued kernels. By definition~\cite[Chapter 2.3]{fasshauer2015kernel}, the real valued functions from the RKHS $\H_K$ and $\H_\Gamma$ can respectively be written as,
+In order to reduce~\eqref{eqautoencoder} to a finite-dimensional problem, we have to rewrite the functions $(g_1,\dots,g_m)$ and $(f_1,\dots,f_{d_2})$ in terms of their respective reproducing kernels. We assume kernels $K$ and $\Gamma$ are real valued kernels. By definition~\citep[Chapter 2.3]{fasshauer2015kernel}, the real valued functions from the RKHS $\H_K$ and $\H_\Gamma$ can respectively be written as,
 \begin{align}
 g_i(\cdot) &= \sum\limits_{p=1}^{N} c^i_p K(\cdot, \bx_p), \\
 f_j(\cdot) &= \sum\limits_{k=1}^{m} d^j_k \Gamma(\cdot, \by_k),
 \end{align}
-where $i$ and $j$ denote the indices of the functions from the respective RKHS and $\bx \in \R^{d_1}, \by \in \R^m$ are arbitrary points in the respective domains of the kernels. Using the properties of symmetry and positive definiteness of reproducing kernels~\cite[Chapter 2.3]{fasshauer2015kernel}, and the forms of functions that belong to RKHS described above, we have the following Hilbert space norms,
+where $i$ and $j$ denote the indices of the functions from the respective RKHS and $\bx \in \R^{d_1}, \by \in \R^m$ are arbitrary points in the respective domains of the kernels. Using the properties of symmetry and positive definiteness of reproducing kernels~\citep[Chapter 2.3]{fasshauer2015kernel}, and the forms of functions that belong to RKHS described above, we have the following Hilbert space norms,
 \begin{align}
 \|g_i\|_K^2 &= \left\langle g_i, g_i \right\rangle_K = \left\langle \sum\limits_{p=1}^{N} c^i_p K(\cdot, \bx_p), \sum\limits_{b=1}^{N} c^i_b K(\cdot, \bx_b) \right\rangle =  (\bc^i)^\Td \mathbf{K} \bc^i, \\
 \|f_j\|_\Gamma^2 &= \left\langle f_j, f_j \right\rangle_{\Gamma} = \left\langle \sum\limits_{k=1}^{m} d^j_k \Gamma(\cdot, \by_k), \sum\limits_{t=1}^{m} d^j_t \Gamma(\cdot, \by_t) \right\rangle =  (\bd^j)^\Td \mathbf{\Gamma} \bd^j,

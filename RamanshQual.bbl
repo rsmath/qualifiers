@@ -1,64 +1,94 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem{biau2012analysis}
+\bibitem[Biau(2012)]{biau2012analysis}
 G{\'e}rard Biau.
 \newblock Analysis of a random forests model.
-\newblock {\em The Journal of Machine Learning Research}, 13(1):1063--1095,
-  2012.
+\newblock \emph{The Journal of Machine Learning Research}, 13\penalty0
+  (1):\penalty0 1063--1095, 2012.
 
-\bibitem{de2022cost}
+\bibitem[de~Hoop et~al.(2022)de~Hoop, Huang, Qian, and Stuart]{de2022cost}
 Maarten~V de~Hoop, Daniel~Zhengyu Huang, Elizabeth Qian, and Andrew~M Stuart.
 \newblock The cost-accuracy trade-off in operator learning with neural
   networks.
-\newblock {\em arXiv preprint arXiv:2203.13181}, 2022.
+\newblock \emph{arXiv preprint arXiv:2203.13181}, 2022.
 
-\bibitem{fasshauer2015kernel}
+\bibitem[Fasshauer and McCourt(2015)]{fasshauer2015kernel}
 Gregory~E Fasshauer and Michael~J McCourt.
-\newblock {\em Kernel-based approximation methods using Matlab}, volume~19.
+\newblock \emph{Kernel-based approximation methods using Matlab}, volume~19.
 \newblock World Scientific Publishing Company, 2015.
 
-\bibitem{kaplan2020scaling}
+\bibitem[Garg et~al.(2022)Garg, Tsipras, Liang, and Valiant]{garg2022can}
+Shivam Garg, Dimitris Tsipras, Percy~S Liang, and Gregory Valiant.
+\newblock What can transformers learn in-context? a case study of simple
+  function classes.
+\newblock \emph{Advances in neural information processing systems},
+  35:\penalty0 30583--30598, 2022.
+
+\bibitem[Ingebrand et~al.(2025)Ingebrand, Thorpe, Goswami, Kumar, and
+  Topcu]{ingebrand2025basis}
+Tyler Ingebrand, Adam~J Thorpe, Somdatta Goswami, Krishna Kumar, and Ufuk
+  Topcu.
+\newblock Basis-to-basis operator learning using function encoders.
+\newblock \emph{Computer Methods in Applied Mechanics and Engineering},
+  435:\penalty0 117646, 2025.
+
+\bibitem[Kaplan et~al.(2020)Kaplan, McCandlish, Henighan, Brown, Chess, Child,
+  Gray, Radford, Wu, and Amodei]{kaplan2020scaling}
 Jared Kaplan, Sam McCandlish, Tom Henighan, Tom~B Brown, Benjamin Chess, Rewon
   Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei.
 \newblock Scaling laws for neural language models.
-\newblock {\em arXiv preprint arXiv:2001.08361}, 2020.
+\newblock \emph{arXiv preprint arXiv:2001.08361}, 2020.
 
-\bibitem{lanthaler2022error}
+\bibitem[Lanthaler et~al.(2022)Lanthaler, Mishra, and
+  Karniadakis]{lanthaler2022error}
 Samuel Lanthaler, Siddhartha Mishra, and George~E Karniadakis.
 \newblock Error estimates for deeponets: A deep learning framework in infinite
   dimensions.
-\newblock {\em Transactions of Mathematics and Its Applications}, 6(1):tnac001,
-  2022.
+\newblock \emph{Transactions of Mathematics and Its Applications}, 6\penalty0
+  (1):\penalty0 tnac001, 2022.
 
-\bibitem{liu2024neural}
+\bibitem[Liu et~al.(2024)Liu, Zhang, Liao, and Schaeffer]{liu2024neural}
 Hao Liu, Zecheng Zhang, Wenjing Liao, and Hayden Schaeffer.
 \newblock Neural scaling laws of deep relu and deep operator network: A
   theoretical study.
-\newblock {\em arXiv preprint arXiv:2410.00357}, 2024.
+\newblock \emph{arXiv preprint arXiv:2410.00357}, 2024.
 
-\bibitem{lu2019deeponet}
+\bibitem[Lu et~al.(2019)Lu, Jin, and Karniadakis]{lu2019deeponet}
 Lu~Lu, Pengzhan Jin, and George~Em Karniadakis.
 \newblock Deeponet: Learning nonlinear operators for identifying differential
   equations based on the universal approximation theorem of operators.
-\newblock {\em arXiv preprint arXiv:1910.03193}, 2019.
+\newblock \emph{arXiv preprint arXiv:1910.03193}, 2019.
 
-\bibitem{radford2019language}
+\bibitem[Radford et~al.(2019)Radford, Wu, Child, Luan, Amodei, Sutskever,
+  et~al.]{radford2019language}
 Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya
   Sutskever, et~al.
 \newblock Language models are unsupervised multitask learners.
-\newblock {\em OpenAI blog}, 1(8):9, 2019.
+\newblock \emph{OpenAI blog}, 1\penalty0 (8):\penalty0 9, 2019.
 
-\bibitem{tan2019efficientnet}
+\bibitem[Tan and Le(2019)]{tan2019efficientnet}
 Mingxing Tan and Quoc Le.
 \newblock Efficientnet: Rethinking model scaling for convolutional neural
   networks.
-\newblock In {\em International conference on machine learning}, pages
+\newblock In \emph{International conference on machine learning}, pages
   6105--6114. PMLR, 2019.
 
-\bibitem{vaswani2017attention}
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017attention}
 Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
   Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
 \newblock Attention is all you need.
-\newblock {\em Advances in neural information processing systems}, 30, 2017.
+\newblock \emph{Advances in neural information processing systems}, 30, 2017.
+
+\bibitem[Zhang et~al.(2024)Zhang, Frei, and Bartlett]{zhang2024trained}
+Ruiqi Zhang, Spencer Frei, and Peter~L Bartlett.
+\newblock Trained transformers learn linear models in-context.
+\newblock \emph{Journal of Machine Learning Research}, 25\penalty0
+  (49):\penalty0 1--55, 2024.
 
 \end{thebibliography}

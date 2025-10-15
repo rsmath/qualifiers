@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  14 OCT 2025 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  14 OCT 2025 20:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -348,6 +348,13 @@ Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen179
 \SOUL@ulht=\dimen180
 ))
+(/home/ramansh/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip81
+\bibsep=\skip82
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count370
+)
 (/home/ramansh/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
 (/home/ramansh/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
 (/home/ramansh/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
@@ -404,14 +411,14 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yd=\dimen194
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count370
-\c@pgf@countb=\count371
-\c@pgf@countc=\count372
-\c@pgf@countd=\count373
+\c@pgf@counta=\count371
+\c@pgf@countb=\count372
+\c@pgf@countc=\count373
+\c@pgf@countd=\count374
 \t@pgf@toka=\toks44
 \t@pgf@tokb=\toks45
 \t@pgf@tokc=\toks46
-\pgf@sys@id@count=\count374
+\pgf@sys@id@count=\count375
  (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
@@ -428,8 +435,8 @@ File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpat
 h.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count375
-\pgfsyssoftpath@bigbuffer@items=\count376
+\pgfsyssoftpath@smallbuffer@items=\count376
+\pgfsyssoftpath@bigbuffer@items=\count377
 )
 (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotoco
 l.code.tex
@@ -462,7 +469,7 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.t
 ex
 \pgfmath@dimen=\dimen195
-\pgfmath@count=\count377
+\pgfmath@count=\count378
 \pgfmath@box=\box66
 \pgfmath@toks=\toks47
 \pgfmath@stack@operand=\toks48
@@ -490,7 +497,7 @@ egerarithmetics.code.tex)
 )
 (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.te
 x
-\c@pgfmathroundto@lastzeros=\count378
+\c@pgfmathroundto@lastzeros=\count379
 )) (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
 (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.
 code.tex
@@ -528,7 +535,7 @@ File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box67
 \pgf@hbox=\box68
 \pgf@layerbox@main=\box69
-\pgf@picture@serial@count=\count379
+\pgf@picture@serial@count=\count380
 )
 (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphic
 state.code.tex
@@ -563,8 +570,8 @@ File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ode.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen275
-\pgf@sys@shading@range@num=\count380
-\pgf@shadingcount=\count381
+\pgf@sys@shading@range@num=\count381
+\pgf@shadingcount=\count382
 )
 (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.c
 ode.tex
@@ -627,7 +634,7 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryploth
 andlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count382
+\pgf@plot@mark@count=\count383
 \pgfplotmarksize=\dimen280
 )
 \tikz@lastx=\dimen281
@@ -642,19 +649,19 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@figbox@bg=\box73
 \tikz@tempbox=\box74
 \tikz@tempbox@bg=\box75
-\tikztreelevel=\count383
-\tikznumberofchildren=\count384
-\tikznumberofcurrentchild=\count385
-\tikz@fig@count=\count386
+\tikztreelevel=\count384
+\tikznumberofchildren=\count385
+\tikznumberofcurrentchild=\count386
+\tikz@fig@count=\count387
 
 (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.c
 ode.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count387
-\pgfmatrixcurrentcolumn=\count388
-\pgf@matrix@numberofcolumns=\count389
+\pgfmatrixcurrentrow=\count388
+\pgfmatrixcurrentcolumn=\count389
+\pgf@matrix@numberofcolumns=\count390
 )
-\tikz@expandcount=\count390
+\tikz@expandcount=\count391
 
 (/home/ramansh/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
 ies/tikzlibrarytopaths.code.tex
@@ -662,12 +669,12 @@ File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
 (/home/ramansh/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip81
+\labelindent=\skip83
 \enit@outerparindent=\dimen289
 \enit@toks=\toks52
 \enit@inbox=\box76
-\enit@count@id=\count391
-\enitdp@description=\count392
+\enit@count@id=\count392
+\enitdp@description=\count393
 )
 (/home/ramansh/.miktex/texmfs/install/tex/latex/graphics/epsfig.sty
 Package: epsfig 2024/01/14 v1.7b (e)psfig emulation (SPQR)
@@ -681,9 +688,9 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks55
 \thm@notefont=\toks56
 \thm@headpunct=\toks57
-\thm@preskip=\skip82
-\thm@postskip=\skip83
-\thm@headsep=\skip84
+\thm@preskip=\skip84
+\thm@postskip=\skip85
+\thm@headsep=\skip86
 \dth@everypar=\toks58
 )
 (/home/ramansh/.miktex/texmfs/install/tex/latex/url/url.sty
@@ -717,9 +724,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/home/ramansh/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count393
-\Gm@cntv=\count394
-\c@Gm@tempcnt=\count395
+\Gm@cnth=\count394
+\Gm@cntv=\count395
+\c@Gm@tempcnt=\count396
 \Gm@bindingoffset=\dimen292
 \Gm@wd@mp=\dimen293
 \Gm@odd@mp=\dimen294
@@ -743,42 +750,42 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen307
 \cmidrulekern=\dimen308
 \defaultaddspace=\dimen309
-\@cmidla=\count396
-\@cmidlb=\count397
+\@cmidla=\count397
+\@cmidlb=\count398
 \@aboverulesep=\dimen310
 \@belowrulesep=\dimen311
-\@thisruleclass=\count398
-\@lastruleclass=\count399
+\@thisruleclass=\count399
+\@lastruleclass=\count400
 \@thisrulewidth=\dimen312
 )
 (/home/ramansh/.miktex/texmfs/install/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip85
-\L@UnitsRaiseTextstyle=\skip86
-\L@UnitsRaiseScriptstyle=\skip87
+\L@UnitsRaiseDisplaystyle=\skip87
+\L@UnitsRaiseTextstyle=\skip88
+\L@UnitsRaiseScriptstyle=\skip89
 )
 (/home/ramansh/.miktex/texmfs/install/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
 
 (/home/ramansh/.miktex/texmfs/install/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count400
-\calc@Bcount=\count401
+\calc@Acount=\count401
+\calc@Bcount=\count402
 \calc@Adimen=\dimen313
 \calc@Bdimen=\dimen314
-\calc@Askip=\skip88
-\calc@Bskip=\skip89
+\calc@Askip=\skip90
+\calc@Bskip=\skip91
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count402
-\calc@Cskip=\skip90
+\calc@Ccount=\count403
+\calc@Cskip=\skip92
 )
 (/home/ramansh/.miktex/texmfs/install/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count403
+\g_MT_multlinerow_int=\count404
 \l_MT_multwidth_dim=\dimen315
-\origjot=\skip91
+\origjot=\skip93
 \l_MT_shortvdotswithinadjustabove_dim=\dimen316
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen317
 \l_MT_above_intertext_sep=\dimen318
@@ -803,8 +810,8 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen330
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count404
-\c@continuedfloat=\count405
+\c@caption@flags=\count405
+\c@continuedfloat=\count406
 Package caption Info: float package is loaded.
 )
 (/home/ramansh/.miktex/texmfs/install/tex/latex/tools/array.sty
@@ -813,8 +820,8 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \ar@mcellbox=\box78
 \extrarowheight=\dimen332
 \NC@list=\toks60
-\extratabsurround=\skip92
-\backup@length=\skip93
+\extratabsurround=\skip94
+\backup@length=\skip95
 \ar@cellbox=\box79
 )
 (/home/ramansh/.miktex/texmfs/install/tex/latex/tools/tabularx.sty
@@ -824,7 +831,7 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@old@col=\dimen335
 \TX@target=\dimen336
 \TX@delta=\dimen337
-\TX@cols=\count406
+\TX@cols=\count407
 \TX@ftn=\toks61
 )
 (/home/ramansh/.miktex/texmfs/install/tex/latex/cleveref/cleveref.sty
@@ -842,53 +849,53 @@ Package: arydshln 2019/02/21 v1.76
 \adl@depth=\dimen342
 \adl@depthsave=\dimen343
 \adl@finaldepth=\dimen344
-\adl@columns=\count407
-\adl@ncol=\count408
-\adl@currentcolumn=\count409
-\adl@currentcolumnsave=\count410
-\adl@totalheight=\count411
-\adl@totalheightsave=\count412
-\adl@dash=\count413
-\adl@gap=\count414
-\adl@cla=\count415
-\adl@clb=\count416
+\adl@columns=\count408
+\adl@ncol=\count409
+\adl@currentcolumn=\count410
+\adl@currentcolumnsave=\count411
+\adl@totalheight=\count412
+\adl@totalheightsave=\count413
+\adl@dash=\count414
+\adl@gap=\count415
+\adl@cla=\count416
+\adl@clb=\count417
 \adl@everyvbox=\toks62
 \adl@LTpagetotal=\dimen345
 )
 ==> First Aid for arydshln.sty applied!
 (/home/ramansh/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count417
+\l__color_backend_stack_int=\count418
 ) (RamanshQual.aux)
 \openout1 = `RamanshQual.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
 
 (/home/ramansh/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count418
+\scratchcounter=\count419
 \scratchdimen=\dimen346
 \scratchbox=\box81
-\nofMPsegments=\count419
-\nofMParguments=\count420
+\nofMPsegments=\count420
+\nofMParguments=\count421
 \everyMPshowfont=\toks63
-\MPscratchCnt=\count421
+\MPscratchCnt=\count422
 \MPscratchDim=\dimen347
-\MPnumerator=\count422
-\makeMPintoPDFobject=\count423
+\MPnumerator=\count423
+\makeMPintoPDFobject=\count424
 \everyMPtoPDFconversion=\toks64
 )
 *geometry* driver: auto-detecting
@@ -927,12 +934,12 @@ LaTeX Font Info:    ... okay on input line 158.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 161
+LaTeX Font Info:    Trying to load font information for U+msa on input line 162
 .
 (/home/ramansh/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 161
+LaTeX Font Info:    Trying to load font information for U+msb on input line 162
 .
 
 (/home/ramansh/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
@@ -942,7 +949,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Warning: No \author given.
 
 (answers/first.tex
-Overfull \hbox (68.59859pt too wide) in paragraph at lines 183--2
+Overfull \hbox (68.59859pt too wide) in paragraph at lines 184--2
 \OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 X \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 X
 []; [] ; X[]\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 Y \OT1/cmr/m/n/12 = (\OML/cmm
 /m/it/12 Y[]; [] ; Y[]\OT1/cmr/m/n/12 )$, and $\OML/cmm/m/it/12 f \OMS/cmsy/m/n
@@ -971,13 +978,15 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 
 [4] (answers/third.tex
 
-[5])
+[5]
 
-[6] (answers/fourth.tex)
+[6])
 
-[7] (answers/fifth.tex)
+[7] (answers/fourth.tex)
 
-[8] (RamanshQual.bbl
+[8] (answers/fifth.tex)
+
+[9] (RamanshQual.bbl
 
 ! LaTeX Error: \mathcal allowed only in math mode.
 
@@ -985,16 +994,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60   Aidan~N Gomez, {\L
+l.84   Aidan~N Gomez, {\L
                          }ukasz Kaiser, and Illia Polosukhin.
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 )
 
-[9]
+[10]
+
+[11]
 This exam contains 5 questions with 7 parts, 0 subparts, and 0 subsubparts.
-runsystem(latexminted cleantemp  --timestamp 20251014154741 ABAD9D55E66734B248D
+runsystem(latexminted cleantemp  --timestamp 20251014201553 ABAD9D55E66734B248D
 3AE60F45DADA3)...disabled (restricted).
 
 (RamanshQual.aux)
@@ -1004,13 +1015,13 @@ L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24488 strings out of 468131
- 510304 string characters out of 5437308
- 1038094 words of memory out of 5000000
- 52714 multiletter control sequences out of 15000+600000
+ 24860 strings out of 468131
+ 515329 string characters out of 5437308
+ 1043951 words of memory out of 5000000
+ 53082 multiletter control sequences out of 15000+600000
  637439 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,17n,107p,1965b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,17n,107p,1971b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.p
 fb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.p
 fb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.
@@ -1028,10 +1039,10 @@ pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12
 2.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/euler/e
 ufm10.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on /home/ramansh/qualifiers/RamanshQual.pdf (9 pages, 206667 byt
-es).
+Output written on /home/ramansh/qualifiers/RamanshQual.pdf (11 pages, 214108 by
+tes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
+ 121 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
