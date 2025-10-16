@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  14 OCT 2025 20:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  15 OCT 2025 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -982,11 +982,40 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 
 [6])
 
-[7] (answers/fourth.tex)
+[7] (answers/fourth.tex
+! Limit controls must follow a math operator.
+l.9 ...$ is sampled at some points $\{x_i\}\limits
+                                                  _{j=1}^{N_x} \in \Omega_u$...
+I'm ignoring this misplaced \limits or \nolimits command.
 
-[8] (answers/fifth.tex)
+! Limit controls must follow a math operator.
+l.9 ...are sampled at $N_y$ points $\{y_k\}\limits
+                                                  _{k=1}^{N_y} \in \Omega_v$...
+I'm ignoring this misplaced \limits or \nolimits command.
 
-[9] (RamanshQual.bbl
+
+
+[8]
+
+[9]
+
+[10])
+
+[11] (answers/fifth.tex)
+
+[12] (RamanshQual.bbl
+
+[13]
+
+[14]
+Underfull \hbox (badness 4072) in paragraph at lines 229--233
+[]\OT1/cmr/m/n/12 Qibang Liu, Wei-heng Zhong, Hadi Mei-dani, Diab Abuei-dda, Se
+id Ko-ric, and
+ []
+
+
+
+[15]
 
 ! LaTeX Error: \mathcal allowed only in math mode.
 
@@ -994,18 +1023,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84   Aidan~N Gomez, {\L
-                         }ukasz Kaiser, and Illia Polosukhin.
+l.313   Aidan~N Gomez, {\L
+                          }ukasz Kaiser, and Illia Polosukhin.
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 )
 
-[10]
-
-[11]
+[16]
 This exam contains 5 questions with 7 parts, 0 subparts, and 0 subsubparts.
-runsystem(latexminted cleantemp  --timestamp 20251014201553 ABAD9D55E66734B248D
+runsystem(latexminted cleantemp  --timestamp 20251015204715 ABAD9D55E66734B248D
 3AE60F45DADA3)...disabled (restricted).
 
 (RamanshQual.aux)
@@ -1015,34 +1042,36 @@ L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24860 strings out of 468131
- 515329 string characters out of 5437308
+ 24980 strings out of 468131
+ 518079 string characters out of 5437308
  1043951 words of memory out of 5000000
- 53082 multiletter control sequences out of 15000+600000
- 637439 words of font info for 81 fonts, out of 8000000 for 9000
+ 53195 multiletter control sequences out of 15000+600000
+ 639617 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,17n,107p,1971b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.p
-fb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.
-pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12
-.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6
-.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12
-.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17
-.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.
-pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.p
-fb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12
-.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt1
-2.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/euler/e
-ufm10.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/sym
-bols/msbm10.pfb>
-Output written on /home/ramansh/qualifiers/RamanshQual.pdf (11 pages, 214108 by
+ 102i,17n,107p,1971b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/ramansh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm12
+00.pk></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmb
+x8.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cme
+x10.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
+mmi6.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
+mmib10.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
+/cmr17.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
+/cmr6.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmti12.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
+/cmtt12.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/e
+uler/eufm10.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfon
+ts/symbols/msbm10.pfb>
+Output written on /home/ramansh/qualifiers/RamanshQual.pdf (16 pages, 254823 by
 tes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
+ 147 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

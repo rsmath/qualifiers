@@ -1,15 +1,81 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{47}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Batlle et~al.(2024)Batlle, Darcy, Hosseini, and
+  Owhadi]{batlle2024kernel}
+Pau Batlle, Matthieu Darcy, Bamdad Hosseini, and Houman Owhadi.
+\newblock Kernel methods are competitive for operator learning.
+\newblock \emph{Journal of Computational Physics}, 496:\penalty0 112549, 2024.
+
+\bibitem[Bhattacharya et~al.(2021)Bhattacharya, Hosseini, Kovachki, and
+  Stuart]{bhattacharya2021model}
+Kaushik Bhattacharya, Bamdad Hosseini, Nikola~B Kovachki, and Andrew~M Stuart.
+\newblock Model reduction and neural networks for parametric pdes.
+\newblock \emph{The SMAI journal of computational mathematics}, 7:\penalty0
+  121--157, 2021.
+
 \bibitem[Biau(2012)]{biau2012analysis}
 G{\'e}rard Biau.
 \newblock Analysis of a random forests model.
 \newblock \emph{The Journal of Machine Learning Research}, 13\penalty0
   (1):\penalty0 1063--1095, 2012.
+
+\bibitem[Bora et~al.(2023)Bora, Shukla, Zhang, Harrop, Leung, and
+  Karniadakis]{bora2023learning}
+Aniruddha Bora, Khemraj Shukla, Shixuan Zhang, Bryce Harrop, Ruby Leung, and
+  George~Em Karniadakis.
+\newblock Learning bias corrections for climate models using deep neural
+  operators.
+\newblock \emph{arXiv preprint arXiv:2302.03173}, 2023.
+
+\bibitem[Boull{\'e} and Townsend(2024)]{boulle2024mathematical}
+Nicolas Boull{\'e} and Alex Townsend.
+\newblock A mathematical guide to operator learning.
+\newblock In \emph{Handbook of Numerical Analysis}, volume~25, pages 83--125.
+  Elsevier, 2024.
+
+\bibitem[Boull{\'e} et~al.(2022)Boull{\'e}, Earls, and
+  Townsend]{boulle2022data}
+Nicolas Boull{\'e}, Christopher~J Earls, and Alex Townsend.
+\newblock Data-driven discovery of green’s functions with
+  human-understandable deep learning.
+\newblock \emph{Scientific reports}, 12\penalty0 (1):\penalty0 4824, 2022.
+
+\bibitem[Brunton et~al.(2016)Brunton, Proctor, and
+  Kutz]{brunton2016discovering}
+Steven~L Brunton, Joshua~L Proctor, and J~Nathan Kutz.
+\newblock Discovering governing equations from data by sparse identification of
+  nonlinear dynamical systems.
+\newblock \emph{Proceedings of the national academy of sciences}, 113\penalty0
+  (15):\penalty0 3932--3937, 2016.
+
+\bibitem[Cao et~al.(2024)Cao, Goswami, and Karniadakis]{cao2024laplace}
+Qianying Cao, Somdatta Goswami, and George~Em Karniadakis.
+\newblock Laplace neural operator for solving differential equations.
+\newblock \emph{Nature Machine Intelligence}, 6\penalty0 (6):\penalty0
+  631--640, 2024.
+
+\bibitem[Cao(2021)]{cao2021choose}
+Shuhao Cao.
+\newblock Choose a transformer: Fourier or galerkin.
+\newblock \emph{Advances in neural information processing systems},
+  34:\penalty0 24924--24940, 2021.
+
+\bibitem[Chalapathi et~al.(2024)Chalapathi, Du, and
+  Krishnapriyan]{chalapathi2024scaling}
+Nithin Chalapathi, Yiheng Du, and Aditi Krishnapriyan.
+\newblock Scaling physics-informed hard constraints with mixture-of-experts.
+\newblock \emph{arXiv preprint arXiv:2402.13412}, 2024.
+
+\bibitem[Choi et~al.(2024)Choi, Jin, and Lkhagvasuren]{choi2024applications}
+Byoung-Ju Choi, Hong~Sung Jin, and Bataa Lkhagvasuren.
+\newblock Applications of the fourier neural operator in a regional ocean
+  modeling and prediction.
+\newblock \emph{Frontiers in Marine Science}, 11:\penalty0 1383997, 2024.
 
 \bibitem[de~Hoop et~al.(2022)de~Hoop, Huang, Qian, and Stuart]{de2022cost}
 Maarten~V de~Hoop, Daniel~Zhengyu Huang, Elizabeth Qian, and Andrew~M Stuart.
@@ -29,6 +95,39 @@ Shivam Garg, Dimitris Tsipras, Percy~S Liang, and Gregory Valiant.
 \newblock \emph{Advances in neural information processing systems},
   35:\penalty0 30583--30598, 2022.
 
+\bibitem[Gin et~al.(2021)Gin, Shea, Brunton, and Kutz]{gin2021deepgreen}
+Craig~R Gin, Daniel~E Shea, Steven~L Brunton, and J~Nathan Kutz.
+\newblock Deepgreen: deep learning of green’s functions for nonlinear
+  boundary value problems.
+\newblock \emph{Scientific reports}, 11\penalty0 (1):\penalty0 21614, 2021.
+
+\bibitem[Guo and Li(2024)]{guo2024mgfno}
+Zi-Hao Guo and Hou-Biao Li.
+\newblock Mgfno: Multi-grid architecture fourier neural operator for parametric
+  partial differential equations.
+\newblock \emph{arXiv preprint arXiv:2407.08615}, 2024.
+
+\bibitem[Gupta and Brandstetter(2022)]{gupta2022towards}
+Jayesh~K Gupta and Johannes Brandstetter.
+\newblock Towards multi-spatiotemporal-scale generalized pde modeling.
+\newblock \emph{arXiv preprint arXiv:2209.15616}, 2022.
+
+\bibitem[Haghighat et~al.(2024)Haghighat, bin Waheed, and
+  Karniadakis]{haghighat2024deeponet}
+Ehsan Haghighat, Umair bin Waheed, and George Karniadakis.
+\newblock En-deeponet: An enrichment approach for enhancing the expressivity of
+  neural operators with applications to seismology.
+\newblock \emph{Computer Methods in Applied Mechanics and Engineering},
+  420:\penalty0 116681, 2024.
+
+\bibitem[Hao et~al.(2023)Hao, Wang, Su, Ying, Dong, Liu, Cheng, Song, and
+  Zhu]{hao2023gnot}
+Zhongkai Hao, Zhengyi Wang, Hang Su, Chengyang Ying, Yinpeng Dong, Songming
+  Liu, Ze~Cheng, Jian Song, and Jun Zhu.
+\newblock Gnot: A general neural operator transformer for operator learning.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  12556--12569. PMLR, 2023.
+
 \bibitem[Ingebrand et~al.(2025)Ingebrand, Thorpe, Goswami, Kumar, and
   Topcu]{ingebrand2025basis}
 Tyler Ingebrand, Adam~J Thorpe, Somdatta Goswami, Krishna Kumar, and Ufuk
@@ -37,12 +136,34 @@ Tyler Ingebrand, Adam~J Thorpe, Somdatta Goswami, Krishna Kumar, and Ufuk
 \newblock \emph{Computer Methods in Applied Mechanics and Engineering},
   435:\penalty0 117646, 2025.
 
+\bibitem[Jiang et~al.(2023)Jiang, Yang, Wang, Huang, Xue, Chakraborty, Chen,
+  and Qian]{jiang2023efficient}
+Peishi Jiang, Zhao Yang, Jiali Wang, Chenfu Huang, Pengfei Xue, TC~Chakraborty,
+  Xingyuan Chen, and Yun Qian.
+\newblock Efficient super-resolution of near-surface climate modeling using the
+  fourier neural operator.
+\newblock \emph{Journal of Advances in Modeling Earth Systems}, 15\penalty0
+  (7):\penalty0 e2023MS003800, 2023.
+
 \bibitem[Kaplan et~al.(2020)Kaplan, McCandlish, Henighan, Brown, Chess, Child,
   Gray, Radford, Wu, and Amodei]{kaplan2020scaling}
 Jared Kaplan, Sam McCandlish, Tom Henighan, Tom~B Brown, Benjamin Chess, Rewon
   Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei.
 \newblock Scaling laws for neural language models.
 \newblock \emph{arXiv preprint arXiv:2001.08361}, 2020.
+
+\bibitem[Khorrami et~al.(2024)Khorrami, Goyal, Mianroodi, Svendsen, Benner, and
+  Raabe]{khorrami2024physics}
+Mohammad~S Khorrami, Pawan Goyal, Jaber~R Mianroodi, Bob Svendsen, Peter
+  Benner, and Dierk Raabe.
+\newblock A physics-encoded fourier neural operator approach for surrogate
+  modeling of divergence-free stress fields in solids.
+\newblock \emph{arXiv preprint arXiv:2408.15408}, 2024.
+
+\bibitem[Kurz et~al.(2024)Kurz, Oughton, and Liu]{kurz2024radial}
+Jason Kurz, Sean Oughton, and Shitao Liu.
+\newblock Radial basis operator networks.
+\newblock \emph{arXiv preprint arXiv:2410.04639}, 2024.
 
 \bibitem[Lanthaler et~al.(2022)Lanthaler, Mishra, and
   Karniadakis]{lanthaler2022error}
@@ -52,11 +173,70 @@ Samuel Lanthaler, Siddhartha Mishra, and George~E Karniadakis.
 \newblock \emph{Transactions of Mathematics and Its Applications}, 6\penalty0
   (1):\penalty0 tnac001, 2022.
 
-\bibitem[Liu et~al.(2024)Liu, Zhang, Liao, and Schaeffer]{liu2024neural}
+\bibitem[Lee et~al.(2024)Lee, Zhu, Xi, Wang, Yuan, and Lu]{lee2024efficient}
+Jonathan~E Lee, Min Zhu, Ziqiao Xi, Kun Wang, Yanhua~O Yuan, and Lu~Lu.
+\newblock Efficient and generalizable nested fourier-deeponet for
+  three-dimensional geological carbon sequestration.
+\newblock \emph{Engineering Applications of Computational Fluid Mechanics},
+  18\penalty0 (1):\penalty0 2435457, 2024.
+
+\bibitem[Li et~al.(2022)Li, Meidani, and Farimani]{li2022transformer}
+Zijie Li, Kazem Meidani, and Amir~Barati Farimani.
+\newblock Transformer for partial differential equations' operator learning.
+\newblock \emph{arXiv preprint arXiv:2205.13671}, 2022.
+
+\bibitem[Li et~al.(2020{\natexlab{a}})Li, Kovachki, Azizzadenesheli, Liu,
+  Bhattacharya, Stuart, and Anandkumar]{li2020fourier}
+Zongyi Li, Nikola Kovachki, Kamyar Azizzadenesheli, Burigede Liu, Kaushik
+  Bhattacharya, Andrew Stuart, and Anima Anandkumar.
+\newblock Fourier neural operator for parametric partial differential
+  equations.
+\newblock \emph{arXiv preprint arXiv:2010.08895}, 2020{\natexlab{a}}.
+
+\bibitem[Li et~al.(2020{\natexlab{b}})Li, Kovachki, Azizzadenesheli, Liu,
+  Bhattacharya, Stuart, and Anandkumar]{li2020neural}
+Zongyi Li, Nikola Kovachki, Kamyar Azizzadenesheli, Burigede Liu, Kaushik
+  Bhattacharya, Andrew Stuart, and Anima Anandkumar.
+\newblock Neural operator: Graph kernel network for partial differential
+  equations.
+\newblock \emph{arXiv preprint arXiv:2003.03485}, 2020{\natexlab{b}}.
+
+\bibitem[Li et~al.(2020{\natexlab{c}})Li, Kovachki, Azizzadenesheli, Liu,
+  Stuart, Bhattacharya, and Anandkumar]{li2020multipole}
+Zongyi Li, Nikola Kovachki, Kamyar Azizzadenesheli, Burigede Liu, Andrew
+  Stuart, Kaushik Bhattacharya, and Anima Anandkumar.
+\newblock Multipole graph neural operator for parametric partial differential
+  equations.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  33:\penalty0 6755--6766, 2020{\natexlab{c}}.
+
+\bibitem[Li et~al.(2023)Li, Huang, Liu, and Anandkumar]{li2023fourier}
+Zongyi Li, Daniel~Zhengyu Huang, Burigede Liu, and Anima Anandkumar.
+\newblock Fourier neural operator with learned deformations for pdes on general
+  geometries.
+\newblock \emph{Journal of Machine Learning Research}, 24\penalty0
+  (388):\penalty0 1--26, 2023.
+
+\bibitem[Liu et~al.(2024{\natexlab{a}})Liu, Zhang, Liao, and
+  Schaeffer]{liu2024neural}
 Hao Liu, Zecheng Zhang, Wenjing Liao, and Hayden Schaeffer.
 \newblock Neural scaling laws of deep relu and deep operator network: A
   theoretical study.
-\newblock \emph{arXiv preprint arXiv:2410.00357}, 2024.
+\newblock \emph{arXiv preprint arXiv:2410.00357}, 2024{\natexlab{a}}.
+
+\bibitem[Liu et~al.(2025)Liu, Zhong, Meidani, Abueidda, Koric, and
+  Geubelle]{liu2025geometry}
+Qibang Liu, Weiheng Zhong, Hadi Meidani, Diab Abueidda, Seid Koric, and
+  Philippe Geubelle.
+\newblock Geometry-informed neural operator transformer.
+\newblock \emph{arXiv preprint arXiv:2504.19452}, 2025.
+
+\bibitem[Liu et~al.(2024{\natexlab{b}})Liu, Xu, Cao, and
+  Zhang]{liu2024mitigating}
+Xinliang Liu, Bo~Xu, Shuhao Cao, and Lei Zhang.
+\newblock Mitigating spectral bias for the multiscale operator learning.
+\newblock \emph{Journal of Computational Physics}, 506:\penalty0 112944,
+  2024{\natexlab{b}}.
 
 \bibitem[Lu et~al.(2019)Lu, Jin, and Karniadakis]{lu2019deeponet}
 Lu~Lu, Pengzhan Jin, and George~Em Karniadakis.
@@ -64,12 +244,61 @@ Lu~Lu, Pengzhan Jin, and George~Em Karniadakis.
   equations based on the universal approximation theorem of operators.
 \newblock \emph{arXiv preprint arXiv:1910.03193}, 2019.
 
+\bibitem[Lu et~al.(2022)Lu, Meng, Cai, Mao, Goswami, Zhang, and
+  Karniadakis]{lu2022comprehensive}
+Lu~Lu, Xuhui Meng, Shengze Cai, Zhiping Mao, Somdatta Goswami, Zhongqiang
+  Zhang, and George~Em Karniadakis.
+\newblock A comprehensive and fair comparison of two neural operators (with
+  practical extensions) based on fair data.
+\newblock \emph{Computer Methods in Applied Mechanics and Engineering},
+  393:\penalty0 114778, 2022.
+
+\bibitem[Oommen et~al.(2024)Oommen, Shukla, Desai, Dingreville, and
+  Karniadakis]{oommen2024rethinking}
+Vivek Oommen, Khemraj Shukla, Saaketh Desai, R{\'e}mi Dingreville, and
+  George~Em Karniadakis.
+\newblock Rethinking materials simulations: Blending direct numerical
+  simulations with neural operators.
+\newblock \emph{npj Computational Materials}, 10\penalty0 (1):\penalty0 145,
+  2024.
+
+\bibitem[Pathak et~al.(2022)Pathak, Subramanian, Harrington, Raja,
+  Chattopadhyay, Mardani, Kurth, Hall, Li, Azizzadenesheli,
+  et~al.]{pathak2022fourcastnet}
+Jaideep Pathak, Shashank Subramanian, Peter Harrington, Sanjeev Raja, Ashesh
+  Chattopadhyay, Morteza Mardani, Thorsten Kurth, David Hall, Zongyi Li, Kamyar
+  Azizzadenesheli, et~al.
+\newblock Fourcastnet: A global data-driven high-resolution weather model using
+  adaptive fourier neural operators.
+\newblock \emph{arXiv preprint arXiv:2202.11214}, 2022.
+
 \bibitem[Radford et~al.(2019)Radford, Wu, Child, Luan, Amodei, Sutskever,
   et~al.]{radford2019language}
 Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya
   Sutskever, et~al.
 \newblock Language models are unsupervised multitask learners.
 \newblock \emph{OpenAI blog}, 1\penalty0 (8):\penalty0 9, 2019.
+
+\bibitem[Raissi et~al.(2019)Raissi, Perdikaris, and
+  Karniadakis]{raissi2019physics}
+Maziar Raissi, Paris Perdikaris, and George~E Karniadakis.
+\newblock Physics-informed neural networks: A deep learning framework for
+  solving forward and inverse problems involving nonlinear partial differential
+  equations.
+\newblock \emph{Journal of Computational physics}, 378:\penalty0 686--707,
+  2019.
+
+\bibitem[Sharma and Shankar(2024)]{sharma2024ensemble}
+Ramansh Sharma and Varun Shankar.
+\newblock Ensemble and mixture-of-experts deeponets for operator learning.
+\newblock \emph{arXiv preprint arXiv:2405.11907}, 2024.
+
+\bibitem[Sun et~al.(2024)Sun, Jiang, Shuai, and Chen]{sun2024bridging}
+Alexander~Y Sun, Peishi Jiang, Pin Shuai, and Xingyuan Chen.
+\newblock Bridging hydrological ensemble simulation and learning using deep
+  neural operators.
+\newblock \emph{Water Resources Research}, 60\penalty0 (10):\penalty0
+  e2024WR037555, 2024.
 
 \bibitem[Tan and Le(2019)]{tan2019efficientnet}
 Mingxing Tan and Quoc Le.
@@ -85,10 +314,25 @@ Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
 \newblock Attention is all you need.
 \newblock \emph{Advances in neural information processing systems}, 30, 2017.
 
+\bibitem[Yang et~al.(2024)Yang, Hernandez-Garcia, Harder, Ramesh, Sattigeri,
+  Szwarcman, Watson, and Rolnick]{yang2024fourier}
+Qidong Yang, Alex Hernandez-Garcia, Paula Harder, Venkatesh Ramesh, Prasanna
+  Sattigeri, Daniela Szwarcman, Campbell~D Watson, and David Rolnick.
+\newblock Fourier neural operators for arbitrary resolution climate data
+  downscaling.
+\newblock \emph{Journal of Machine Learning Research}, 25\penalty0
+  (420):\penalty0 1--30, 2024.
+
 \bibitem[Zhang et~al.(2024)Zhang, Frei, and Bartlett]{zhang2024trained}
 Ruiqi Zhang, Spencer Frei, and Peter~L Bartlett.
 \newblock Trained transformers learn linear models in-context.
 \newblock \emph{Journal of Machine Learning Research}, 25\penalty0
   (49):\penalty0 1--55, 2024.
+
+\bibitem[Zhang et~al.(2023)Zhang, Wing~Tat, and Schaeffer]{zhang2023belnet}
+Zecheng Zhang, Leung Wing~Tat, and Hayden Schaeffer.
+\newblock Belnet: Basis enhanced learning, a mesh-free neural operator.
+\newblock \emph{Proceedings of the Royal Society A}, 479\penalty0
+  (2276):\penalty0 20230043, 2023.
 
 \end{thebibliography}
