@@ -1,4 +1,4 @@
-\begin{thebibliography}{47}
+\begin{thebibliography}{60}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -71,11 +71,31 @@ Nithin Chalapathi, Yiheng Du, and Aditi Krishnapriyan.
 \newblock Scaling physics-informed hard constraints with mixture-of-experts.
 \newblock \emph{arXiv preprint arXiv:2402.13412}, 2024.
 
+\bibitem[Chen and Chen(1995{\natexlab{a}})]{chen1995approximation}
+Tianping Chen and Hong Chen.
+\newblock Approximation capability to functions of several variables, nonlinear
+  functionals, and operators by radial basis function neural networks.
+\newblock \emph{IEEE Transactions on Neural Networks}, 6\penalty0 (4):\penalty0
+  904--910, 1995{\natexlab{a}}.
+
+\bibitem[Chen and Chen(1995{\natexlab{b}})]{chen1995universal}
+Tianping Chen and Hong Chen.
+\newblock Universal approximation to nonlinear operators by neural networks
+  with arbitrary activation functions and its application to dynamical systems.
+\newblock \emph{IEEE transactions on neural networks}, 6\penalty0 (4):\penalty0
+  911--917, 1995{\natexlab{b}}.
+
 \bibitem[Choi et~al.(2024)Choi, Jin, and Lkhagvasuren]{choi2024applications}
 Byoung-Ju Choi, Hong~Sung Jin, and Bataa Lkhagvasuren.
 \newblock Applications of the fourier neural operator in a regional ocean
   modeling and prediction.
 \newblock \emph{Frontiers in Marine Science}, 11:\penalty0 1383997, 2024.
+
+\bibitem[Cybenko(1989)]{cybenko1989approximation}
+George Cybenko.
+\newblock Approximation by superpositions of a sigmoidal function.
+\newblock \emph{Mathematics of control, signals and systems}, 2\penalty0
+  (4):\penalty0 303--314, 1989.
 
 \bibitem[de~Hoop et~al.(2022)de~Hoop, Huang, Qian, and Stuart]{de2022cost}
 Maarten~V de~Hoop, Daniel~Zhengyu Huang, Elizabeth Qian, and Andrew~M Stuart.
@@ -87,6 +107,12 @@ Maarten~V de~Hoop, Daniel~Zhengyu Huang, Elizabeth Qian, and Andrew~M Stuart.
 Gregory~E Fasshauer and Michael~J McCourt.
 \newblock \emph{Kernel-based approximation methods using Matlab}, volume~19.
 \newblock World Scientific Publishing Company, 2015.
+
+\bibitem[Gallant(1988)]{gallant1988there}
+Gallant.
+\newblock There exists a neural network that does not make avoidable mistakes.
+\newblock In \emph{IEEE 1988 International Conference on Neural Networks},
+  pages 657--664. IEEE, 1988.
 
 \bibitem[Garg et~al.(2022)Garg, Tsipras, Liang, and Valiant]{garg2022can}
 Shivam Garg, Dimitris Tsipras, Percy~S Liang, and Gregory Valiant.
@@ -128,6 +154,17 @@ Zhongkai Hao, Zhengyi Wang, Hang Su, Chengyang Ying, Yinpeng Dong, Songming
 \newblock In \emph{International Conference on Machine Learning}, pages
   12556--12569. PMLR, 2023.
 
+\bibitem[Holstermann(2023)]{holstermann2023expressive}
+Jan Holstermann.
+\newblock On the expressive power of neural networks.
+\newblock \emph{arXiv preprint arXiv:2306.00145}, 2023.
+
+\bibitem[Hornik et~al.(1989)Hornik, Stinchcombe, and
+  White]{hornik1989multilayer}
+Kurt Hornik, Maxwell Stinchcombe, and Halbert White.
+\newblock Multilayer feedforward networks are universal approximators.
+\newblock \emph{Neural networks}, 2\penalty0 (5):\penalty0 359--366, 1989.
+
 \bibitem[Ingebrand et~al.(2025)Ingebrand, Thorpe, Goswami, Kumar, and
   Topcu]{ingebrand2025basis}
 Tyler Ingebrand, Adam~J Thorpe, Somdatta Goswami, Krishna Kumar, and Ufuk
@@ -135,6 +172,12 @@ Tyler Ingebrand, Adam~J Thorpe, Somdatta Goswami, Krishna Kumar, and Ufuk
 \newblock Basis-to-basis operator learning using function encoders.
 \newblock \emph{Computer Methods in Applied Mechanics and Engineering},
   435:\penalty0 117646, 2025.
+
+\bibitem[Irie and Miyake(1988)]{irie1988capabilities}
+Irie and Miyake.
+\newblock Capabilities of three-layered perceptrons.
+\newblock In \emph{IEEE 1988 international conference on neural networks},
+  pages 641--648. IEEE, 1988.
 
 \bibitem[Jiang et~al.(2023)Jiang, Yang, Wang, Huang, Xue, Chakraborty, Chen,
   and Qian]{jiang2023efficient}
@@ -160,6 +203,14 @@ Mohammad~S Khorrami, Pawan Goyal, Jaber~R Mianroodi, Bob Svendsen, Peter
   modeling of divergence-free stress fields in solids.
 \newblock \emph{arXiv preprint arXiv:2408.15408}, 2024.
 
+\bibitem[Kovachki et~al.(2021)Kovachki, Lanthaler, and
+  Mishra]{kovachki2021universal}
+Nikola Kovachki, Samuel Lanthaler, and Siddhartha Mishra.
+\newblock On universal approximation and error bounds for fourier neural
+  operators.
+\newblock \emph{Journal of Machine Learning Research}, 22\penalty0
+  (290):\penalty0 1--76, 2021.
+
 \bibitem[Kurz et~al.(2024)Kurz, Oughton, and Liu]{kurz2024radial}
 Jason Kurz, Sean Oughton, and Shitao Liu.
 \newblock Radial basis operator networks.
@@ -179,6 +230,13 @@ Jonathan~E Lee, Min Zhu, Ziqiao Xi, Kun Wang, Yanhua~O Yuan, and Lu~Lu.
   three-dimensional geological carbon sequestration.
 \newblock \emph{Engineering Applications of Computational Fluid Mechanics},
   18\penalty0 (1):\penalty0 2435457, 2024.
+
+\bibitem[Leshno et~al.(1993)Leshno, Lin, Pinkus, and
+  Schocken]{leshno1993multilayer}
+Moshe Leshno, Vladimir~Ya Lin, Allan Pinkus, and Shimon Schocken.
+\newblock Multilayer feedforward networks with a nonpolynomial activation
+  function can approximate any function.
+\newblock \emph{Neural networks}, 6\penalty0 (6):\penalty0 861--867, 1993.
 
 \bibitem[Li et~al.(2022)Li, Meidani, and Farimani]{li2022transformer}
 Zijie Li, Kazem Meidani, and Amir~Barati Farimani.
@@ -253,6 +311,11 @@ Lu~Lu, Xuhui Meng, Shengze Cai, Zhiping Mao, Somdatta Goswami, Zhongqiang
 \newblock \emph{Computer Methods in Applied Mechanics and Engineering},
   393:\penalty0 114778, 2022.
 
+\bibitem[Lu et~al.(2017)Lu, Pu, Wang, Hu, and Wang]{lu2017expressive}
+Zhou Lu, Hongming Pu, Feicheng Wang, Zhiqiang Hu, and Liwei Wang.
+\newblock The expressive power of neural networks: A view from the width.
+\newblock \emph{Advances in neural information processing systems}, 30, 2017.
+
 \bibitem[Oommen et~al.(2024)Oommen, Shukla, Desai, Dingreville, and
   Karniadakis]{oommen2024rethinking}
 Vivek Oommen, Khemraj Shukla, Saaketh Desai, R{\'e}mi Dingreville, and
@@ -261,6 +324,11 @@ Vivek Oommen, Khemraj Shukla, Saaketh Desai, R{\'e}mi Dingreville, and
   simulations with neural operators.
 \newblock \emph{npj Computational Materials}, 10\penalty0 (1):\penalty0 145,
   2024.
+
+\bibitem[Park et~al.(2020)Park, Yun, Lee, and Shin]{park2020minimum}
+Sejun Park, Chulhee Yun, Jaeho Lee, and Jinwoo Shin.
+\newblock Minimum width for universal approximation.
+\newblock \emph{arXiv preprint arXiv:2006.08859}, 2020.
 
 \bibitem[Pathak et~al.(2022)Pathak, Subramanian, Harrington, Raja,
   Chattopadhyay, Mardani, Kurth, Hall, Li, Azizzadenesheli,
@@ -293,6 +361,13 @@ Ramansh Sharma and Varun Shankar.
 \newblock Ensemble and mixture-of-experts deeponets for operator learning.
 \newblock \emph{arXiv preprint arXiv:2405.11907}, 2024.
 
+\bibitem[Shen et~al.(2022)Shen, Yang, and Zhang]{shen2022optimal}
+Zuowei Shen, Haizhao Yang, and Shijun Zhang.
+\newblock Optimal approximation rate of relu networks in terms of width and
+  depth.
+\newblock \emph{Journal de Math{\'e}matiques Pures et Appliqu{\'e}es},
+  157:\penalty0 101--135, 2022.
+
 \bibitem[Sun et~al.(2024)Sun, Jiang, Shuai, and Chen]{sun2024bridging}
 Alexander~Y Sun, Peishi Jiang, Pin Shuai, and Xingyuan Chen.
 \newblock Bridging hydrological ensemble simulation and learning using deep
@@ -306,6 +381,12 @@ Mingxing Tan and Quoc Le.
   networks.
 \newblock In \emph{International conference on machine learning}, pages
   6105--6114. PMLR, 2019.
+
+\bibitem[Telgarsky(2016)]{telgarsky2016benefits}
+Matus Telgarsky.
+\newblock Benefits of depth in neural networks.
+\newblock In \emph{Conference on learning theory}, pages 1517--1539. PMLR,
+  2016.
 
 \bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
   Kaiser, and Polosukhin]{vaswani2017attention}

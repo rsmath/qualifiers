@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  15 OCT 2025 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  17 OCT 2025 19:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -974,15 +974,146 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 
 [2]
 
-[3] (answers/second.tex)
+[3] (answers/second.tex
 
-[4] (answers/third.tex
+! LaTeX Error: Environment theorem undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \begin{theorem}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{questions} on input line 167 ended by \end{theorem}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \end{theorem}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+<argument> ...theta ) d \mu (x) = 0, ; \forall \y 
+                                                  , \theta , 
+l.18 \end{align}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...theta ) d \mu (x) = 0, ; \forall \y 
+                                                  , \theta , 
+l.18 \end{align}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[4]
+
+! LaTeX Error: Environment theorem undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \begin{theorem}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{questions} on input line 167 ended by \end{theorem}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \end{theorem}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 
 [5]
 
+! LaTeX Error: Environment theorem undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \begin{theorem}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Limit controls must follow a math operator.
+l.37 ...curacy; $\text{sup} \|G(a) - F(a)\|\limits
+                                                  _{H^d} < \epsilon, \forall...
+I'm ignoring this misplaced \limits or \nolimits command.
+
+! Limit controls must follow a math operator.
+l.39 ...rom this we have $\|G(a) - G_N(a)\|\limits
+                                                  _{L^2} \le \epsilon, \; \f...
+I'm ignoring this misplaced \limits or \nolimits command.
+
+
+! LaTeX Error: \begin{questions} on input line 167 ended by \end{theorem}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \end{theorem}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package natbib Warning: Citation `herrmann2024neural' on page 6 undefined on in
+put line 44.
+
+
+Package natbib Warning: Citation `kovachki2024operator' on page 6 undefined on 
+input line 44.
+
+
+Package natbib Warning: Citation `kovachki2024operator' on page 6 undefined on 
+input line 44.
+
+
+
 [6])
 
-[7] (answers/fourth.tex
+[7] (answers/third.tex
+
+[8]
+
+[9])
+
+[10] (answers/fourth.tex
 ! Limit controls must follow a math operator.
 l.9 ...$ is sampled at some points $\{x_i\}\limits
                                                   _{j=1}^{N_x} \in \Omega_u$...
@@ -995,27 +1126,35 @@ I'm ignoring this misplaced \limits or \nolimits command.
 
 
 
-[8]
+[11]
 
-[9]
+[12]
 
-[10])
+[13])
 
-[11] (answers/fifth.tex)
+[14] (answers/fifth.tex)
 
-[12] (RamanshQual.bbl
+[15] (RamanshQual.bbl
 
-[13]
+[16]
+Underfull \hbox (badness 1496) in paragraph at lines 158--161
+[]\OT1/cmr/m/n/12 Jan Hol-ster-mann.  On the ex-pres-sive power of neu-ral net-
+works.  \OT1/cmr/m/it/12 arXiv preprint
+ []
 
-[14]
-Underfull \hbox (badness 4072) in paragraph at lines 229--233
+
+
+[17]
+
+[18]
+Underfull \hbox (badness 4072) in paragraph at lines 287--291
 []\OT1/cmr/m/n/12 Qibang Liu, Wei-heng Zhong, Hadi Mei-dani, Diab Abuei-dda, Se
 id Ko-ric, and
  []
 
 
 
-[15]
+[19]
 
 ! LaTeX Error: \mathcal allowed only in math mode.
 
@@ -1023,16 +1162,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.313   Aidan~N Gomez, {\L
+l.394   Aidan~N Gomez, {\L
                           }ukasz Kaiser, and Illia Polosukhin.
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 )
 
-[16]
+[20]
 This exam contains 5 questions with 7 parts, 0 subparts, and 0 subsubparts.
-runsystem(latexminted cleantemp  --timestamp 20251015204715 ABAD9D55E66734B248D
+
+Package natbib Warning: There were undefined citations.
+
+runsystem(latexminted cleantemp  --timestamp 20251017192358 ABAD9D55E66734B248D
 3AE60F45DADA3)...disabled (restricted).
 
 (RamanshQual.aux)
@@ -1042,13 +1184,13 @@ L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24980 strings out of 468131
- 518079 string characters out of 5437308
+ 25024 strings out of 468131
+ 519267 string characters out of 5437308
  1043951 words of memory out of 5000000
- 53195 multiletter control sequences out of 15000+600000
+ 53239 multiletter control sequences out of 15000+600000
  639617 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,17n,107p,1971b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,17n,107p,1971b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/ramansh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm12
 00.pk></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmb
@@ -1067,11 +1209,12 @@ cmsy8.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
 cmti12.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
 /cmtt12.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/e
 uler/eufm10.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb>
-Output written on /home/ramansh/qualifiers/RamanshQual.pdf (16 pages, 254823 by
+ts/symbols/msam10.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/
+amsfonts/symbols/msbm10.pfb>
+Output written on /home/ramansh/qualifiers/RamanshQual.pdf (20 pages, 285514 by
 tes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
+ 165 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
