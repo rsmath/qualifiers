@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  17 OCT 2025 19:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  19 OCT 2025 21:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -869,20 +869,20 @@ File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 ) (RamanshQual.aux)
 \openout1 = `RamanshQual.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
 
 (/home/ramansh/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -934,12 +934,12 @@ LaTeX Font Info:    ... okay on input line 159.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 162
+LaTeX Font Info:    Trying to load font information for U+msa on input line 175
 .
 (/home/ramansh/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 162
+LaTeX Font Info:    Trying to load font information for U+msb on input line 175
 .
 
 (/home/ramansh/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
@@ -949,7 +949,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Warning: No \author given.
 
 (answers/first.tex
-Overfull \hbox (68.59859pt too wide) in paragraph at lines 184--2
+Overfull \hbox (68.59859pt too wide) in paragraph at lines 197--2
 \OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 X \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 X
 []; [] ; X[]\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 Y \OT1/cmr/m/n/12 = (\OML/cmm
 /m/it/12 Y[]; [] ; Y[]\OT1/cmr/m/n/12 )$, and $\OML/cmm/m/it/12 f \OMS/cmsy/m/n
@@ -989,7 +989,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{questions} on input line 167 ended by \end{theorem}.
+! LaTeX Error: \begin{questions} on input line 180 ended by \end{theorem}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1040,7 +1040,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{questions} on input line 167 ended by \end{theorem}.
+! LaTeX Error: \begin{questions} on input line 180 ended by \end{theorem}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1079,7 +1079,7 @@ l.39 ...rom this we have $\|G(a) - G_N(a)\|\limits
 I'm ignoring this misplaced \limits or \nolimits command.
 
 
-! LaTeX Error: \begin{questions} on input line 167 ended by \end{theorem}.
+! LaTeX Error: \begin{questions} on input line 180 ended by \end{theorem}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1090,18 +1090,6 @@ l.41 \end{theorem}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-Package natbib Warning: Citation `herrmann2024neural' on page 6 undefined on in
-put line 44.
-
-
-Package natbib Warning: Citation `kovachki2024operator' on page 6 undefined on 
-input line 44.
-
-
-Package natbib Warning: Citation `kovachki2024operator' on page 6 undefined on 
-input line 44.
 
 
 
@@ -1132,29 +1120,49 @@ I'm ignoring this misplaced \limits or \nolimits command.
 
 [13])
 
-[14] (answers/fifth.tex)
+[14] (answers/fifth.tex
+! Limit controls must follow a math operator.
+l.3 ...\by \in \Omega$. Let $X = \{\bx_i \}\limits
+                                                  _{i=1}^{N}$ be a set of po...
+I'm ignoring this misplaced \limits or \nolimits command.
 
-[15] (RamanshQual.bbl
+! Limit controls must follow a math operator.
+l.7 ...M$ overlapping patches $\{\Omega_j\}\limits
+                                                  _{j=1}^{M}$. The PoU appro...
+I'm ignoring this misplaced \limits or \nolimits command.
 
-[16]
-Underfull \hbox (badness 1496) in paragraph at lines 158--161
+
+
+[15]
+Overfull \hbox (50.26508pt too wide) detected at line 16
+[]
+ []
+
+
+
+[16])
+
+[17] (RamanshQual.bbl
+
+[18]
+Underfull \hbox (badness 1496) in paragraph at lines 172--175
 []\OT1/cmr/m/n/12 Jan Hol-ster-mann.  On the ex-pres-sive power of neu-ral net-
 works.  \OT1/cmr/m/it/12 arXiv preprint
  []
 
 
 
-[17]
+[19]
 
-[18]
-Underfull \hbox (badness 4072) in paragraph at lines 287--291
+[20]
+Underfull \hbox (badness 4072) in paragraph at lines 307--311
 []\OT1/cmr/m/n/12 Qibang Liu, Wei-heng Zhong, Hadi Mei-dani, Diab Abuei-dda, Se
 id Ko-ric, and
  []
 
 
 
-[19]
+[21]
 
 ! LaTeX Error: \mathcal allowed only in math mode.
 
@@ -1162,19 +1170,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.394   Aidan~N Gomez, {\L
+l.414   Aidan~N Gomez, {\L
                           }ukasz Kaiser, and Illia Polosukhin.
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 )
 
-[20]
+[22]
 This exam contains 5 questions with 7 parts, 0 subparts, and 0 subsubparts.
-
-Package natbib Warning: There were undefined citations.
-
-runsystem(latexminted cleantemp  --timestamp 20251017192358 ABAD9D55E66734B248D
+runsystem(latexminted cleantemp  --timestamp 20251019215149 ABAD9D55E66734B248D
 3AE60F45DADA3)...disabled (restricted).
 
 (RamanshQual.aux)
@@ -1184,10 +1189,10 @@ L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25024 strings out of 468131
- 519267 string characters out of 5437308
+ 25053 strings out of 468131
+ 519707 string characters out of 5437308
  1043951 words of memory out of 5000000
- 53239 multiletter control sequences out of 15000+600000
+ 53268 multiletter control sequences out of 15000+600000
  639617 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,17n,107p,1971b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1211,10 +1216,10 @@ cmti12.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
 uler/eufm10.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfon
 ts/symbols/msam10.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb>
-Output written on /home/ramansh/qualifiers/RamanshQual.pdf (20 pages, 285514 by
+Output written on /home/ramansh/qualifiers/RamanshQual.pdf (22 pages, 305760 by
 tes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
+ 171 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

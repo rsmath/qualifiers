@@ -1,4 +1,4 @@
-\begin{thebibliography}{60}
+\begin{thebibliography}{63}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -103,6 +103,13 @@ Maarten~V de~Hoop, Daniel~Zhengyu Huang, Elizabeth Qian, and Andrew~M Stuart.
   networks.
 \newblock \emph{arXiv preprint arXiv:2203.13181}, 2022.
 
+\bibitem[Drake et~al.(2021)Drake, Fuselier, and Wright]{drake2021partition}
+Kathryn~P Drake, Edward~J Fuselier, and Grady~B Wright.
+\newblock A partition of unity method for divergence-free or curl-free radial
+  basis function approximation.
+\newblock \emph{SIAM Journal on Scientific Computing}, 43\penalty0
+  (3):\penalty0 A1950--A1974, 2021.
+
 \bibitem[Fasshauer and McCourt(2015)]{fasshauer2015kernel}
 Gregory~E Fasshauer and Michael~J McCourt.
 \newblock \emph{Kernel-based approximation methods using Matlab}, volume~19.
@@ -153,6 +160,13 @@ Zhongkai Hao, Zhengyi Wang, Hang Su, Chengyang Ying, Yinpeng Dong, Songming
 \newblock Gnot: A general neural operator transformer for operator learning.
 \newblock In \emph{International Conference on Machine Learning}, pages
   12556--12569. PMLR, 2023.
+
+\bibitem[Herrmann et~al.(2024)Herrmann, Schwab, and Zech]{herrmann2024neural}
+Lukas Herrmann, Christoph Schwab, and Jakob Zech.
+\newblock Neural and spectral operator surrogates: unified construction and
+  expression rate bounds.
+\newblock \emph{Advances in Computational Mathematics}, 50\penalty0
+  (4):\penalty0 72, 2024.
 
 \bibitem[Holstermann(2023)]{holstermann2023expressive}
 Jan Holstermann.
@@ -210,6 +224,12 @@ Nikola Kovachki, Samuel Lanthaler, and Siddhartha Mishra.
   operators.
 \newblock \emph{Journal of Machine Learning Research}, 22\penalty0
   (290):\penalty0 1--76, 2021.
+
+\bibitem[Kovachki et~al.(2024)Kovachki, Lanthaler, and
+  Stuart]{kovachki2024operator}
+Nikola~B Kovachki, Samuel Lanthaler, and Andrew~M Stuart.
+\newblock Operator learning: Algorithms and analysis.
+\newblock \emph{Handbook of Numerical Analysis}, 25:\penalty0 419--467, 2024.
 
 \bibitem[Kurz et~al.(2024)Kurz, Oughton, and Liu]{kurz2024radial}
 Jason Kurz, Sean Oughton, and Shitao Liu.
