@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  20 OCT 2025 00:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  20 OCT 2025 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -960,8 +960,8 @@ OT1/cmr/m/n/12 (\OML/cmm/m/it/12 g\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr
 /m/n/12 )))$.
  []
 
-(answers/first.tex
-Overfull \hbox (32.52466pt too wide) in paragraph at lines 7--9
+
+Overfull \hbox (32.52466pt too wide) in paragraph at lines 208--210
 \OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 i$ \OT1/cmr/m/n/12 and $\OML/cmm/m/it/1
 2 j$ \OT1/cmr/m/n/12 de-note the in-dices of the func-tions from the re-spec-ti
 ve RKHS and $[]$
@@ -972,16 +972,16 @@ ve RKHS and $[]$
 [1
 
 {/home/ramansh/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 20.
-
+LaTeX Font Info:    Trying to load font information for U+euf on input line 221
+.
 
 (/home/ramansh/.miktex/texmfs/install/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-))
+)
 
 [2]
 
-[3] (answers/second.tex
+[3]
 
 ! LaTeX Error: Environment theorem undefined.
 
@@ -989,8 +989,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \begin{theorem}
-                   
+l.255 \begin{theorem}
+                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1002,8 +1002,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \end{theorem}
-                  
+l.261 \end{theorem}
+                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1011,8 +1011,8 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <argument> ...theta ) d \mu (x) = 0, ; \forall \y 
                                                   , \theta , 
-l.17 \end{align}
-                
+l.267 \end{align}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1022,8 +1022,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...theta ) d \mu (x) = 0, ; \forall \y 
                                                   , \theta , 
-l.17 \end{align}
-                
+l.267 \end{align}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1040,8 +1040,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \begin{theorem}
-                    
+l.274 \begin{theorem}
+                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1053,8 +1053,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 \end{theorem}
-                  
+l.280 \end{theorem}
+                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1069,19 +1069,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \begin{theorem}
-                    
+l.286 \begin{theorem}
+                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Limit controls must follow a math operator.
-l.37 ...curacy; $\text{sup} \|G(a) - F(a)\|\limits
+l.287 ...uracy; $\text{sup} \|G(a) - F(a)\|\limits
                                                   _{H^d} < \epsilon, \forall...
 I'm ignoring this misplaced \limits or \nolimits command.
 
 ! Limit controls must follow a math operator.
-l.39 ...rom this we have $\|G(a) - G_N(a)\|\limits
+l.289 ...om this we have $\|G(a) - G_N(a)\|\limits
                                                   _{L^2} \le \epsilon, \; \f...
 I'm ignoring this misplaced \limits or \nolimits command.
 
@@ -1092,30 +1092,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \end{theorem}
-                  
+l.291 \end{theorem}
+                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
 
-[6])
+[6]
 
-[7] (answers/third.tex
+[7]
 
 [8]
 
-[9])
+[9]
 
-[10] (answers/fourth.tex
+[10]
 ! Limit controls must follow a math operator.
-l.7 ...$ is sampled at some points $\{x_i\}\limits
+l.342 ...is sampled at some points $\{x_i\}\limits
                                                   _{j=1}^{N_x} \in \Omega_u$...
 I'm ignoring this misplaced \limits or \nolimits command.
 
 ! Limit controls must follow a math operator.
-l.7 ...are sampled at $N_y$ points $\{y_k\}\limits
+l.342 ...e sampled at $N_y$ points $\{y_k\}\limits
                                                   _{k=1}^{N_y} \in \Omega_v$...
 I'm ignoring this misplaced \limits or \nolimits command.
 
@@ -1125,29 +1125,29 @@ I'm ignoring this misplaced \limits or \nolimits command.
 
 [12]
 
-[13])
+[13]
 
-[14] (answers/fifth.tex
+[14]
 ! Limit controls must follow a math operator.
-l.3 ...\by \in \Omega$. Let $X = \{\bx_i \}\limits
+l.393 ...y \in \Omega$. Let $X = \{\bx_i \}\limits
                                                   _{i=1}^{N}$ be a set of po...
 I'm ignoring this misplaced \limits or \nolimits command.
 
 ! Limit controls must follow a math operator.
-l.7 ...M$ overlapping patches $\{\Omega_j\}\limits
+l.397 ... overlapping patches $\{\Omega_j\}\limits
                                                   _{j=1}^{M}$. The PoU appro...
 I'm ignoring this misplaced \limits or \nolimits command.
 
 
 
 [15]
-Overfull \hbox (50.26508pt too wide) detected at line 16
+Overfull \hbox (50.26508pt too wide) detected at line 406
 []
  []
 
 
 
-[16])
+[16]
 
 [17] (RamanshQual.bbl
 
@@ -1186,7 +1186,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [22]
 This exam contains 5 questions with 7 parts, 0 subparts, and 0 subsubparts.
-runsystem(latexminted cleantemp  --timestamp 20251020000651 ABAD9D55E66734B248D
+runsystem(latexminted cleantemp  --timestamp 20251020113237 ABAD9D55E66734B248D
 3AE60F45DADA3)...disabled (restricted).
 
 (RamanshQual.aux)
@@ -1196,13 +1196,13 @@ L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25051 strings out of 468131
- 519649 string characters out of 5437308
- 1044949 words of memory out of 5000000
- 53266 multiletter control sequences out of 15000+600000
+ 25009 strings out of 468131
+ 518637 string characters out of 5437308
+ 1044951 words of memory out of 5000000
+ 53241 multiletter control sequences out of 15000+600000
  639617 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,17n,107p,1968b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,17n,107p,1946b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/ramansh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm12
 00.pk></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmb

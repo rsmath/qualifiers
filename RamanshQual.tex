@@ -199,7 +199,35 @@ where $X=(X_1,\ldots,X_N)$, $Y=(Y_1,\ldots,Y_N)$, and $f\circ g(X)$ denotes the 
 Reduce \eqref{eqautoencoder} to a finite-dimensional optimization problem.\\
 {\bf Recommended answer length: less than a page. AI/LLM not allowed.}
 
-\input{answers/first}
+{\bf Answer:}
+
+In order to reduce~\eqref{eqautoencoder} to a finite-dimensional problem, we have to rewrite the functions $(g_1,\dots,g_m)$ and $(f_1,\dots,f_{d_2})$ in terms of their respective reproducing kernels. We assume kernels $K$ and $\Gamma$ are real valued kernels. By definition~\citep[Chapter 2.3]{fasshauer2015kernel}, the real valued functions from the RKHS $\H_K$ and $\H_\Gamma$ can respectively be written as,
+\begin{align}
+g_i(\cdot) &= \sum\limits_{p=1}^{N} c^i_p K(\cdot, \bx_p), \\
+f_j(\cdot) &= \sum\limits_{k=1}^{m} d^j_k \Gamma(\cdot, \by_k),
+\end{align}
+where $i$ and $j$ denote the indices of the functions from the respective RKHS and ${\bx \in \R^{d_1}, \by \in \R^m}$ are arbitrary points in the respective domains of the kernels. Using the properties of symmetry and positive definiteness of reproducing kernels~\citep[Chapter 2.3]{fasshauer2015kernel}, and the forms of functions that belong to the RKHS described above, we have the following Hilbert space norms,
+\begin{align}
+\|g_i\|_K^2 &= \left\langle g_i, g_i \right\rangle_K = \left\langle \sum\limits_{p=1}^{N} c^i_p K(\cdot, \bx_p), \sum\limits_{b=1}^{N} c^i_b K(\cdot, \bx_b) \right\rangle =  (\bc^i)^\Td \mathbf{K} \bc^i, \\
+\|f_j\|_\Gamma^2 &= \left\langle f_j, f_j \right\rangle_{\Gamma} = \left\langle \sum\limits_{k=1}^{m} d^j_k \Gamma(\cdot, \by_k), \sum\limits_{t=1}^{m} d^j_t \Gamma(\cdot, \by_t) \right\rangle =  (\bd^j)^\Td \mathbf{\Gamma} \bd^j,
+\end{align}
+where, $\mathbf{K}$ and $\mathbf{\Gamma}$ are the full $(N\times N)$ and $(m\times m)$ kernel matrices respectively. The goal now is to rewrite~\eqref{eqautoencoder} as an optimization problem in terms of the expansion coefficients $\bc$ and $\bd$. We reformulate~\eqref{eqautoencoder} below:
+\begin{align}
+&\min_{\bc^1,\ldots,\bc^m,\; \bd^1,\ldots,\bd^{d_2}} 
+\sum_{i=1}^m (\bc^i)^\Td \mathbf{K} \bc^i
++ \sum_{j=1}^{d_2} (\bd^j)^\Td \mathbf{\Gamma} \bd^j
++ \lambda \sum\limits_{n=1}^N \sum\limits_{j=1}^{d_2} \left( f_j(g(X_n)) - Y^j_n \right)^2, \label{eq:sumexpansion}
+\end{align}
+where $X_n$ and $Y_n$ are the $n^{\text{th}}$ data points respectively. For brevity, we use $\bg_n$ to denote $g(X_n) = \left(\mathbf{K}(X_n, X) \bc^1, \dots, \mathbf{K}(X_n, X) \bc^m \right)$, where $\mathbf{K}(X_n, X)$ is a column vector. Further, let $\mathfrak{g} = (\bg_1, \bg_2, \dots, \bg_N)$. Then,~\eqref{eq:sumexpansion} can be written as,
+\begin{align}
+\min_{\bc^1,\ldots,\bc^m,\; \bd^1,\ldots,\bd^{d_2}} 
+\sum_{i=1}^m (\bc^i)^\Td \mathbf{K} \bc^i
++ \sum_{j=1}^{d_2} (\bd^j)^\Td \mathbf{\Gamma} \bd^j
++ \lambda \sum\limits_{n=1}^N \sum\limits_{j=1}^{d_2} \left( \mathbf{\Gamma}(\bg_n, \mathfrak{g}) \bd_j - Y^j_n \right)^2. \label{eq:finitedimopt}
+\end{align}
+In the final form shown in~\eqref{eq:finitedimopt}, the optimization problem is with respect to the finite-dimensional expansion coefficients $(\bc^1, \dots, \bc^m)$ and $(\bd^1, \dots, \bd^{d_2})$.
+%
+\pagebreak
 
 \question Consider the setting of operator learning, with an oracle/exact operator $G$:
 \begin{align*}
@@ -220,7 +248,54 @@ In your response, consider the following aspects:
 \end{enumerate}
 {\bf Recommended answer length: 3-5 pages. AI/LLM not allowed.}
 
-\input{answers/second}
+{\bf Answer:}
+
+Universal approximation theorems (UAT) are a critical part of machine learning research. They provide theoretical guarantees on the approximation capabilities of neural networks. This often helps with judiciously picking the free parameters (hyperparameters such as learning rate, network width and height, activation function, etc.) for a neural network architecture. Early work showed single layer networks with an infinite number of neurons can approximate arbitrary functions~\citep{irie1988capabilities} and single layer networks using the cosine activation function can give Fourier series approximation for square-integrable target functions~\citep{gallant1988there}. But for fitting arbitrary continuous functions, some of the first work came from~\citep{cybenko1989approximation} and~\citep{hornik1989multilayer} which showed that wide shallow networks using continuous or monotonic sigmoid activation functions can approximate arbitrary continuous functions with arbitrary accuracy. To illustrate a fundamental UAT, we briefly go over Theorem 1 from~\citep{cybenko1989approximation}.
+\paragraph{Theorem 1}
+\begin{theorem}
+Let $I_n$ denote the $[0, 1]^n$ unit hypercube and $C(I_n)$ the space of continuous functions in that hypercube. Loosely speaking, we say that a scalar valued function $\sigma$ is discriminatory if it can detect the sign of its input (acting as an activation function). We are interested in finite sums of the form
+\begin{align}
+M(x) = \sum\limits_{j=1}^N \alpha_j \sigma(y_j^{\top} x + \theta_j),
+\end{align}
+where $x,y \in \R^n$ and $\theta, \alpha \in \R$. 
+\end{theorem}
+Then, given $f \in C(I_n)$ and $\epsilon > 0$, there is a sum $M(x)$ such that $|M(x) - f(x)| < \epsilon, \forall x \in I_n$.
+\begin{proof}
+Let $S \subset C(I_n)$ be the space of functions to which $M$ belongs. This means that $S$ is a linear subspace of $C(I_n)$. Assuming this were not true, according to the Hahn-Banach theorem and Riesz Representation theorem, there is a bounded linear functional on $C(I_n)$ that is zero on $S$. We write it as
+\begin{align}
+\int\limits_{I_n} \sigma(y^{\top} x + \theta) d \mu(x) = 0, ; \forall \y, \theta,
+\end{align}
+where $\mu$ is some Borel measure (required for $\sigma$ to be discriminatory). Since we assume $\sigma$ is discriminatory, therefore $\mu = 0$, our assumption is wrong, and the linear functional is zero everywhere (not just on $S$). This shows that sums of the form $M(x)$ are dense in $C(I_n)$ provided $\sigma$ is discriminatory and continuous.
+\end{proof}
+\citep{cybenko1989approximation} showed similar theorems and proofs for sigmoidal $\sigma$ (a function that is 1 on the positive real line, zero on the negative real line). However, they cautiously conclude that their proofs only show the \emph{existence} of such powerful networks but that finding the correct architecture for them is a question for feasibility.~\citep{shen2022optimal} showed the approximation rates for networks using the ReLU activation function in terms of the width and depth.~\citep{leshno1993multilayer} showed that as long as the chosen activation function is not a polynomial, multilayer perceptrons can approximate any function with arbitrary accuracy. While these results are from the perspective of increasing the width, the alternate perspective has also been explored. For example,~\citep{lu2017expressive, park2020minimum} derive the minimum width necessary for arbitrarily deep neural networks to be universal approximators; found to be $\text{max}(n + 1, m)$ where the functions being approximated are $f: \R^n \rightarrow \R^m$. The tradeoff between increasing the width and depth to fit different classes of functions is covered well by~\citep{telgarsky2016benefits}. In general, wide and shallow networks need exponentially more neurons in each layer to approximate a function with the same accuracy as a deep network~\cite[Theorem 1.15]{holstermann2023expressive}.
+
+UATs have also been thoroughly investigated in the context of neural operators.~\citep{chen1995universal, chen1995approximation} came up with ``operator networks'' and showed that single layer neural networks can approximate with arbitrary accuracy any \emph{operator}. We explore UATs for two popular neural operator architectures, deep operator networks (DeepONet) and Fourier neural operator (FNO).~\citep{lu2019deeponet}, inspired from~\citep{chen1995universal}, came up with the DeepONet architecture (an inner product of two separate neural networks). The following is the UAT for DeepONets,
+\paragraph{UAT for DeepONet}
+\begin{theorem}
+Given a nonlinear continuous operator $G$, an activation function $\sigma$ that belongs to the class of Tauber-Wiener functions (scalar valued continuous or discontinuous functions whose linear combinations are dense in the range of continuous functions $C([a, b])$), and $A$ and $U$ are the input and output function spaces respectively, then for any $\epsilon > 0$, there exists a positive integer $p$ such that
+\begin{align}
+\left| G(a)(y) - \sum\limits_{i=1}^{p} \boldsymbol{\beta}_i(a(X), \boldsymbol{\theta}_{\beta}) \sigma(\boldsymbol{\tau}_i(y, \boldsymbol{\theta}_{\tau})) \right| < \epsilon,
+\end{align}
+where $\boldsymbol{\beta}$ and $\boldsymbol{\tau}$ are the branch and trunk networks respectively parametrized by neural network parameters $\boldsymbol{\theta}_{\beta}$ and $\boldsymbol{\theta}_{\tau}$ respectively, $X$ is a set of points in $D_a$, and $y \in D_u$. $p$ is a hyperparameter and be seen as the number of basis functions of the DeepONet.
+\end{theorem}
+
+This UAT does not cover many areas of practical interest, where the input space may not be compact and assumptions on the continuity on $G$ may fail. It is also general enough that judiciously choosing $p$, cardinality of the set $X$ (number of location to sample functions in $A$ at), and the architecture of the branch and trunk networks is difficult. Recognizing this,~\citep{lanthaler2022error} comprehensively extended UATs for DeepONets and rigorously performed error analysis on them. Relaxing the norm to compute the error between $G$ and the DeepONet approximation, they were able to remove the compactness requirement that the UAT in~\citep{lu2019deeponet} and~\citep{chen1995universal} had and were able to apply the theorem to the approximation of nonlinear operators of the kind that appear in~\citep{lu2019deeponet}. This was a key step in explicitly showing how DeepONets can break the curse of dimensionality.
+
+\citep{kovachki2021universal} presented a UAT for the Fourier neural operator (FNO) architecture. It is as follows:
+\paragraph{UAT for FNO}
+\begin{theorem}
+FNOs can approximate an arbitrary operator $G$ with arbitrary accuracy; $\text{sup} \|G(a) - F(a)\|\limits_{H^d} < \epsilon, \forall a \in K$, where $F$ is the FNO, $G$ maps from functions in $H^s$ to functions in $H^d$, and $K \subset H^s$.
+\begin{proof}
+Let $G_N: H^s \rightarrow L^2, \; G_N(a) = P_N G(P_N a),$ where $P_N$ is the orthogonal Fourier projection operator. From this we have $\|G(a) - G_N(a)\|\limits_{L^2} \le \epsilon, \; \forall a \in K$. One needs to then show that $F$ can approximate $G_N$ with error $\epsilon$. Simplifying the next steps in~\citep{kovachki2021universal} proof, using Fourier dual operators we get the identity $G_N(a) = \F_N^{-1} \circ \hat{G}_N \circ \F_N (P_N a)$ where $\F$ and $\F^{-1}$ are the discrete Fourier and inverse Fourier transforms respectively. The key is to then show that FNOs can approximate each of the three operators, $\F_N^{-1}, \hat{G}_N,$ and $\F_N P_N$.
+\end{proof}
+\end{theorem}
+{\bf Insights:} A common trend that emerges in UATs for both function and operator approximation by neural networks is to prove that the the architecture belongs to forms of functions that are dense in $L(\Omega)$ where $L$ is some function space to which the output space $U$ belongs and $\Omega \subset \R^u$. While the UAT results for function approximation directly help in choosing the architectural hyperparameters for neural networks (such as the width, height, and activation), it is not always trivial to do so for neural operators. For example, the UAT for FNOs does not include the lifting and projection layers (often parametrized with MLPs) explicitly and therefore provides no insight in picking their hyperparameters. Similarly, in the DeepONet UAT, while the theorem states that the output functions can be approximated with arbitrary accuracy, there are no bounds that describe the optimal hyperparameters for the branch and trunk networks \emph{simultaneously} (like the ones in~\citep{lu2017expressive, park2020minimum} for function approximation do).
+
+Even though it is difficult to pick the precise architectural hyperparameters \emph{a priori} for DeepONets and FNOs, slightly relaxed analysis is still possible.~\citep{herrmann2024neural} proved that DeepONets with ReLU activation can approximate holomorphic operators with convergence rate $n^{1-s}$ (in the supremum norm) where $n$ is the number of trainable parameters and $s \sim 1/p$ where $p$ is the number of basis functions used in the DeepONet. Such analysis is more intuitive to perform on DeepONets than FNOs because DeepONets belong to a class of encoder-decoder style neural operator architectures~\citep{kovachki2024operator}, where encoding and decoding involve $A \approx \R^a$ and $\R^u \approx U$ respectively. For Lipschitz operators,~\citep{kovachki2024operator} also showed that if DeepONets and FNOs use standard MLPs, the number of parameters $n$ grows as $n \gtrsim \exp(c \epsilon^{-a/s})$, where $s$ is smoothness parameter.
+
+Deriving universal approximation theorems for operators is an important but difficult task. Most current neural operator architectures do not lend themselves to UATs with which their optimal hyperparameters can be determined to achieve a desired error $\epsilon$. UATs for functions are useful in deriving only very general UATs for operators. In most encoder-decoder style architectures, the difficulty arises from the use of usually separate neural networks for encoding the input functions and the basis for output functions. A potential novel approach that may mitigate this is to use single network architectures (those similar to the ones described in~\citep{chen1995universal}). The challenge is to make something as expressive and accurate as the current state-of-the-art neural operators. The key to solving this may be an architecture that lies at the intersection of kernel based methods~\citep{batlle2024kernel} and neural networks, a personal research direction for the near future. Specifically for PDE applications, in such an architecture it would be possible to imbibe kernels with desirable conservation properties analytically (something current neural operators are known to struggle with~\citep{khorrami2024physics}), yet still benefit from the expressivity of neural networks.
+%
+\pagebreak
 
 \question {\bf I will ask two questions both related to your work. Answer one in detail (~1 page) and one in short (~1/2 page) (your choice).}
 
@@ -231,7 +306,23 @@ In your response, consider the following aspects:
 \emph{Skim} the main results, but especially look at Section 4.2. Are you aware of analogous results in the SciML area? Does the distribution over boundary conditions, etc. matter for learnability?
 \end{parts}
 %
-\input{answers/third}
+{\bf Answer:}
+
+{\bf Part a:} \citep{kaplan2020scaling} is a study on neural scaling laws that investigated the effect of variables such as the model architecture, the model size (the network's width and depth for, example), the computing power used to train, and the amount of training dataset on the overall performance. While related work exists that explored such trends in models such as random forests~\citep{biau2012analysis} and image models~\citep{tan2019efficientnet}, this study focused on language models. The authors in~\citep{kaplan2020scaling} investigated and reported power-law relationships between the performance (in terms of the loss on the test set) of the classical Transformer model~\citep{vaswani2017attention} on the WebText2 dataset~\citep{radford2019language} and three main variables of interest; the number of model parameters $N$, the dataset size $D$, and the amount of compute required $C$. Across the variety of experiments conducted, the following trends are reported in the paper:
+\begin{enumerate}
+\item {\bf Power laws:} When not bottlenecked by the other two, the accuracy has a power-law relationship with each of the three factors $N, D, C$.
+\item {\bf Overfitting:} If suboptimal values of $N$ or $D$ are used, the accuracy incurs a penalty as the scaling variable is increased.
+\item {\bf Model size:} Large models tend to perform better overall; they need fewer optimization steps and a smaller dataset to achieve the same accuracy as smaller models. In fact, according to the authors the optimal performance is reached by training very large models and stopping significantly short of the convergence criteria.
+\item {\bf Transfer learning:} Interestingly, the model's performance on a dataset from a different distribution than the training one is strongly correlated to the performance on the training set but with a constant offset.
+\end{enumerate}
+%
+Since these scaling laws do not assume any special properties about the functions they are approximating, it is reasonable to expect these trends to carry over to SciML applications. While it is hard to find such studies done for physics-informed neural networks (architectures that can learn a given PDE solution function), a number of scaling studies are done in the field of operator learning where many operators of interest are solution operators of PDEs. For example, the original DeepONet (deep operator network) paper~\citep{lu2019deeponet} showed various error convergence rates as functions of the the network width, the amount of training data (number of functions), and the number of ``sensor locations'' (locations where the input functions are sampled).~\citep{de2022cost} reported a power-law relationship between the in- and out-of-distribution accuracy and the size of the training dataset for DeepONets, FNOs, PCA-Nets, and PARA-Nets.~\citep{lanthaler2022error} studied the effect of the DeepONet network size on its approximation and generalization errors for specific operators. Finally,~\citep{liu2024neural} presented neural scaling laws (observed to be power laws) for DeepONets' approximation and generalization errors for general Lipschitz operators with respect to the model and dataset sizes. While according to the scaling laws for operator learning methods the model error can be driven down arbitrarily, the empirical results from~\citep{lu2019deeponet} showed that this is not true. For example, Figure 6 in the paper showed that the relationship between training and test error with respect to the number of sensor locations initially follows a power law but plateaus after the number exceeds $10^1$. We see similar trends with the network width in Figure 2. This is consistent with the insights put forth by~\citep{kaplan2020scaling}, that most scaling power laws plateau.
+
+{\bf Part b:}~\citep{garg2022can} studied in-context learning of function classes with transformers. In-context learning is the ability of a model to, for a {\it previously unseen} function $f$, accurately predict $f(x_{i+1})$ at query point $x_{i+1}$ when given a prompt of $i$ ``in context'' sampling locations and samples of $f$; $\left(x_1, f(x_1), x_2, f(x_2), \dots, x_i, f(x_i) \right)$. For the class of linear functions, the transformer model can in-context learn well enough to be on par with several baselines; least squares estimator (known to be optimal), n-nearest neighbors, and averaging. In-context learning is also robust, it performs well even when the in-context outputs ($f(x_1), f(x_2), \dots, f(x_i)$) are noisy at inference time and when the distribution of the in-context examples and the query differ. The transformer model is also shown to in-context learn other function classes, mainly sparse linear functions, decision trees, and shallow neural networks. \citep{zhang2024trained} went a step further and showed how in-context learning is ``learning a learning algorithm from data'' and studied different distribution shifts under which the standard approach fails. Section 4.2 revisits three such shifts; task ($\D_{f}^{\text{train}} \neq \D_{f}^{\text{test}}$), query ($\D_{\text{query}}^{\text{test}} \neq \D_{x}^{\text{test}}$), and covariate ($\D_{x}^{\text{train}} \neq \D_{x}^{\text{test}}$). Transformers handle well the task and query shifts (the latter as long as $\D_{x}^{\text{train}} = \D_{x}^{\text{test}}$) but not the covariate shifts. Interestingly, the same covariate shift phenomenon has been observed in SciML!
+
+\citep{lu2019deeponet} stated clearly that in order for DeepONets to work, the sensor locations must be constant across all instances, essentially requiring $\D_{x}^{\text{train}} = \D_{x}^{\text{test}}$. This is generally true for most operator learning methods, though there is some work exploring ways to mitigate this by learning function encoders~\citep{ingebrand2025basis, zhang2023belnet}. Most operator learning architectures also suffer from task shifts but none from query shifts (either at training or test time). When learning solution operators of PDEs, often the input functions are different initial and/or boundary conditions. As such, in order to avoid suffering from task shifts, the instances of input functions across training and test sets need to come from the same underlying distribution.
+%
+\pagebreak
 
 \question
 
@@ -242,7 +333,46 @@ In your response, consider the following aspects:
 {\bf Recommendation: no less than 1 page.} 
 \end{parts}
 %
-\input{answers/fourth}
+{\bf Answer:}
+
+{\bf Part a:} Scientific machine learning methods can be categorized into three areas~\citep{boulle2024mathematical}; (i) PDE solvers~\citep{raissi2019physics}, (ii) PDE discovery~\citep{brunton2016discovering}, and operator learning. Operator learning methods \emph{approximate} a ``function-to-function'' map between two separable infinite-dimensional function spaces. In the most general setting, consider two such Banach function spaces, $\U(\Omega_u; \|\cdot\|_{\R^{d_u}})$ and $\V(\Omega_v, \|\cdot\|_{\R^{d_v}})$ where $\Omega_u \subset \R^{d_u}$ and $\Omega_v \subset \R^{d_v}$. Then, given a finite number of function pairs $\{(u_1, v_1), (u_2, v_2), \dots, (u_N, v_N)\}$ where, $u_i \in \U$ (input functions) and $v_i \in \V$ (output functions), one aims to approximate the true operator $\G: \U \rightarrow \V$ with some approximation $\tilde{\G}$ such that $\|\tilde{\G} - \G \|$ is minimized.
+
+In recent years, with the advent of machine learning being used for SciML applications, many neural network architectures have emerged for operator learning. We enumerate and explain below the popular methods, neural network and otherwise.
+\begin{itemize}
+\item {\bf DeepONet:} First introduced in~\citep{lu2019deeponet}, the DeepONet architecture consists of two networks, a branch network $\boldsymbol{\beta}: \R^{N_x} \rightarrow \R^p$ that takes an input function $u$ sampled at $N_x$ locations, and a trunk network $\boldsymbol{\tau}: \R^{d_v} \rightarrow \R^p$ that takes as input a location to evaluate the output function at. The DeepONet output then is the $p$-dimensional inner product between the branch output (can be thought of as coefficients) multiplying the trunk output, (a set of spatial basis functions for the output function space) $\tilde{\G}(u)(y) = \langle \boldsymbol{\tau}(y), \boldsymbol{\beta}(u) \rangle$, where $y$ is a location where the output function is evaluated and $u$ is sampled at some points $\{x_i\}\limits_{j=1}^{N_x} \in \Omega_u$. The two networks are trained by minimizing the loss function $\|\tilde{\G}(u_i)(y) - v_i(y) \|_2^2$ to some tolerance for all input-output function pairs (the output functions are sampled at $N_y$ points $\{y_k\}\limits_{k=1}^{N_y} \in \Omega_v$). In fact, the same loss function is used by all neural operator architectures albeit with different parameterizations of $\tilde{\G}$.
+
+The DeepONet is a simple but effective architecture. It's architecture presents its output as a linear expansion of basis functions which allows problem-dependent basis functions to be picked~(POD-DeepONet in~\citep{lu2022comprehensive}, ensemble and partition-of-unity (PoU) DeepONets in~\citep{sharma2024ensemble}). However, while DeepONets are architecturally elegant and modifiable, they are generally outperformed by other neural operators.
+
+\item {\bf FNO:}~\citep{li2020fourier} introduced one of the most popular neural operator architectures. The FNO parameterizes the integral kernel in the Fourier space. Their architecture consists of a lifting operator for the input functions to multiple ``channels'', followed by multiple Fourier layers with kernel integral operators that parameterize the kernel with neural networks directly in the Fourier space by using the fast Fourier transform (FFT), and finally a projection layer that undoes the lifting operation. Let $L$ and $P$ be the lift and projection operators respectively and $f_t$ denote the $t^{th}$ of $T$ Fourier layers. Then the FNO can be written as $\G(u)(y) = P(\; \sigma(\; f_T(\; \sigma(\; \dots f_2(\; \sigma(\; f_1(\; L(\; u(y))))) \dots ))))$, where $\sigma$ is a chosen nonlinear activation function. A given Fourier layer, say the $(t+1)^{th}$ one, can be written as
+\begin{align}
+f_{t+1}(y) &= \sigma\left(\mathcal{F}^{-1}\left( \mathcal{F}(f_t)(x) \right)(y) +  W f_t(y) \right),
+\end{align}
+where $\mathcal{F}$ and $\mathcal{F}^{-1}$ are the kernel integral operators (using translation invariant kernels) defined in Fourier space using FFT and IFFT respectively, and $W$ is a point-wise convolution operator. This architecture requires the functions to be sampled on points on equispaced grids which has tremendous benefits as well as limitations. FNOs are naturally resolution-invariant and can do zero-shot super resolution (evaluate on a different resolution at inference time than the one it is trained on) accurately that other architectures such as CNNs cannot (\citep[Section 4]{li2020fourier}). Various FNO architectures have emerged over the years that mitigate two primary issues in the original method, (i) the requirement for the functions to be on regular grids (as needed by the FFT algorithm), and (ii) output functions being evaluated on a different set of points than the input functions.~\citep{lu2022comprehensive} came up with the gFNO and dFNO architectures that mitigate both these issues.~\citep{li2023fourier} came up with the geometry-aware FNO architecture that can work with arbitrary domain geometries.~\citep{cao2024laplace} came up with the Laplace Neural Operator (LNO) which uses the pole-residue relationship between the input and output function spaces and outperforms the original FNO. Finally,~\citep{guo2024mgfno} introduced the multi-grid FNO architecture that uses a three-level hierarchy; three different networks (for coarse, intermediate, and fine scales) are trained simultaneously to achieve high-resolution accuracy.
+
+\item {\bf Deep green networks:} This class of neural operators learns the kernel of the kernel integral operator directly in the physical space~\citep{gin2021deepgreen, boulle2022data}. It parameterizes $\tilde{\G}$ as
+\begin{align}
+\tilde{\G}(u)(y) = \int\limits_{\Omega} G(x, y) u(x) dx, \; x \in \Omega,
+\end{align}
+where $\Omega$ is the domain of the PDE whose solution operator is being learned and $G: \Omega \times \Omega$ is the Green's kernel learned from the data parametrized as a neural network~\citep{boulle2022data}. A key advantage here is that the Green's kernel can be visualized. To discretize the integral operator a valid quadrature rule needs to be found which scales quadratically with the number of points where the function is evaluated~\citep{boulle2024mathematical}.
+
+\item {\bf Graph Neural Operator:}~\citep{li2020neural} came up with the graph neural operator (GNO) architecture which is similar to the deep green network (DGN) in that it also aims to learn the Green's kernel. However, instead of learning the kernel globally like in DGN, GNO performs the integral operation locally on a ball of radius $r$, $B(x, r)$ around each point $x$. This leads to the choice of discretizing $\Omega$ with a graph whose nodes are the spatial points. GNO therefore approximates the local kernel $G_r$.~\citep{li2020neural} go over errors bounds for $\|G - G_r\|_{L^2(\Omega \times \Omega)}$ and show that the limited kernel $G_r$ well approximates $G$ especially in higher dimensions.~\citep{li2020multipole} built up on this idea with the {\bf Multipole graph neural operator} (MGNO) that learns both the short- and long-range interactions in $G$ by decomposing the kernel into a sum of low rank kernels, $G = K_1 + K_2 + \dots + K_L$. This approach has the added advantage of evaluating the integral operation in linear complexity. Interestingly, MGNO is similar to DeepONets in that they both are low rank neural operators (because of the limitation of $p$ basis functions in DeepONets), but the MGNO architecture is more flexible since the kernel it is approximation, $G$, itself is not low-rank~\citep{boulle2024mathematical}!
+
+\item {\bf Kernels:} Finally,~\citep{batlle2024kernel} show that kernel methods are indeed competitive for operator learning! Using the theory of reproducible Kernel Hilbert spaces (RKHS) and Gaussian Processes (GP), the authors came up with an operator learning framework using kernels well supported by convergence proofs and error bounds. In many examples, this method outperforms popular neural operator architectures. Given a chosen kernel $K$ (for example the rational quadratic, Gaussian, or the class of Mat\'ern kernels), the method approximates output functions as
+\begin{align}
+\G(u) = K(u, U) K(U, U)^{-1} V,
+\end{align}
+where $U$ and $V$ are all the input and output functions ``stacked'' together as block vectors respectively. Since, $K(U, U)^{-1} V$ can be computed once and stored, the inference of this method is significantly faster compared to neural operators! The method also has mesh invariance (see Section 2.4). Another huge advantage of this method is that due to GPs, uncertainty quantification becomes possible.
+\end{itemize}
+
+{\bf Part b:} The field of operator learning is growing fast! The methods outlined above are already being used in real world scientific applications. To list some, weather and climate modeling~\citep{bora2023learning, pathak2022fourcastnet, jiang2023efficient, yang2024fourier}, earthquake modeling~\citep{haghighat2024deeponet}, carbon sequestration~\citep{lee2024efficient}, ocean modeling~\citep{choi2024applications}, hydrology~\citep{sun2024bridging}, and material sciences~\citep{gupta2022towards, oommen2024rethinking}.
+
+There are several directions of growth that the field is seeing. The first is a fundamental exploration of new neural operator architectures apart from the common ones listed above.~\citep{kurz2024radial} used shallow radial basis function neural networks to come up with the first neural operator to learn entirely in both time and frequency domains and achieved a small error in both the in- and out-of-distribution tests.~\citep{ingebrand2025basis} came up with a novel methodology to learn the underlying basis functions for both the input and output function spaces to be able to evaluate them at arbitrary locations at inference time.~\citep{bhattacharya2021model} introduced the PCA-Net architecture that reduces the dimensionality of input and output functions to a lower dimensional latent space where it learns the operator map. While this is not an exhaustive list, the salient trend to highlight here is the emergence of innovative architectures that borrow inspiration from a variety of traditional machine learning methods to bring to operator learning.
+
+To further that note,~\citep{hao2023gnot} and~\citep{liu2025geometry} are some examples of the operator learning community moving towards amalgamation with transformer style architectures.~\citep{hao2023gnot} designed a framework that allows for multiple input functions and irregular meshes. They also introduced a gating mechanism that can be viewed to help with multi-scale problems.~\citep{liu2025geometry} can make predictions on arbitrary geometries with surface point clouds that are unordered and have non-uniform point density on 2D and 3D problems, a remarkable feat compared to traditional neural operators. Other novel transformer based operator learning architectures include~\citep{cao2021choose, liu2024mitigating, li2022transformer}. This is a very promising direction to scale operator learning methods on scientific applications to extremely large datasets using the expressivity of transformers and the efficient parallelized computational methods they've been developed with since their advent.
+
+Finally, a crucial step necessary for operator learning methods for scientific computing applications is trustworthiness. Physical constraints such as conservation laws are hard to accurately build in as hard constraints into neural network architectures. Physical-informed hard constraints result in increased computational cost which require specialized methods to make them feasible~\citep{chalapathi2024scaling}. A specific property of interest is the incompressibility of velocity fields in fluid dynamics, commonly written as the divergence-free constraint. While there is attempt on building this constraint exactly into an FNO~\citep{khorrami2024physics}, problems still remain. My current work revolves around a novel kernel based operator learning method that can analytically encode not just the divergence-free constraint but other desirable properties while maintaining state-of-the-art accuracy on fluid dynamics problems. This leads to the most promising future direction for operator learning; trustworthy and expressive neural operator architectures for scientific computing applications.
+%
+\pagebreak
 
 \question Consider partition of unity (PoU) kernel methods in the context of divergence-free approximation. These methods allow one to scale global interpolation to very large numbers of points without a loss of computational efficiency. However, there are some specific challenges to applying PoU methods to divergence-free approximations. {\bf Note that we are not talking about operator learning, but just function approximation/interpolation}.\\
 {\bf No AI/LLM allowed}.
@@ -258,7 +388,46 @@ In your response, consider the following aspects:
 {\bf Recommendation: 1-2 pages}.
 \end{parts}
 %
-\input{answers/fifth}
+{\bf Answer:}
+
+{\bf Part a:} Let $\Omega \subset \R^{d}$ be a domain on which a vector-valued target function $\bof: \R^d \rightarrow \R^d$ is defined. Let $\phi: \R^d \times \R^d \rightarrow \R$ be a scalar valued kernel that is $C^2$-differentiable. We can then construct a \emph{matrix} valued divergence-free kernel $\Phidiv$ (whose columns are divergence free \emph{by construction}) as, $\Phidiv(\bx, \by) \coloneqq \curlx^{\top} \curly \; \phi(\bx, \by), \; \bx, \by \in \Omega$. Let $X = \{\bx_i \}\limits_{i=1}^{N}$ be a set of points in $\Omega$. Then, the global divergence-free interpolant $\bs$ is
+\begin{align}
+\bs(\bx) = \sum\limits_{i=1}^{N} \Phidiv(\bx, \bx_i) \; \bc_i, \label{divfreeinterp}
+\end{align}
+where $\bc_i \in \R^d$ are the interpolation coefficients. If instead we do partition-of-unity (PoU) interpolation,~\eqref{divfreeinterp} changes. We partition $\Omega$ into a set of $M$ overlapping patches $\{\Omega_j\}\limits_{j=1}^{M}$. The PoU approximant $\bspou$ is written as,
+\begin{align}
+\bspou(\bx) = \sum\limits_{k=1}^{M} \bs_k(\bx) \bc_k,
+\end{align}
+where $\bs_k(\bx) = w_k(\bx) \Phidiv(\bx, \bx_k)$, and $w_k$ are the compactly-supported blending functions. The problem here is that the basis functions $\bs_k$ are not divergence-free because of the multiplication with the weight functions. Hence, $\bspou$ is no longer divergence-free.
+
+{\bf Part b:}~\citep{drake2021partition} used \emph{local} divergence-free and curl-free radial basis function (RBF) kernels to find the local scalar potential fields on each patch and blend them together with PoU to form a global scalar potential field. Then, the $\curlx^{\top} \curly$ operator is applied on the global scalar potential field to get the analytically divergence-free vector approximant. The key is to be able to extract a scalar potential $\psi$ out from~\eqref{divfreeinterp} in the following way (once the coefficients $\bc_i$ have been found),
+\begin{align}
+\bs(\bx) = \sum\limits_{i=1}^{N} \Phidiv(\bx, \bx_i) \bc_i = \sum\limits_{i=1}^{N} \left(\curlx^{\top} \curly \phi(\bx, \bx_i)\right) \bc_i = \underbrace{Q_{\bx} \nabla}_{\bL} \underbrace{\left(\sum\limits_{i=1}^{N} \nabla^{\top} \phi(\bx, \bx_i) Q_{\bx_i} \bc_i \right)}_{\psi(\bx)} = \bL(\psi(\bx)), \label{divfreeinterp_210}
+\end{align}
+where applying $Q_{\bx}$ to a vector in $\R^d$ gives the cross product of the unit normal $\mathbf{n}$ (in $d$ dimensions) with that vector, and $\psi$ is a scalar potential function that is unique up to an additive constant. $\bL = Q_{\bx} \nabla$ is the $\curlx$ operator. The idea behind the approach in this paper is to find and use the potential function $\psi_k$ from a patch's local divergence-free interpolant ${\bs_k^{_{\text{div}}}(\bx) = \sum\limits_{\forall \bx_t \in \Omega_k} \Phidiv(\bx, \bx_t) \bc_t}$. One approach is to say ${\tilde{\psi}(\bx) = \sum\limits_{k=1}^{M} w_k(\bx) \psi_k(\bx)}$ is the blended global PoU potential and then $\bL(\tilde{\psi})$ gives a global divergence-free approximant. The problem is that since the scalar potentials are unique only up to a constant, in the overlap regions the individual patch's scalar potential fields are not going to agree (they will be off up to the additive constant). Note that this problem does not occur in the normal PoU approximation because every patch's basis function is \emph{the same function} but only shifted (this is not true with the different $\psi_k$ calculated from~\eqref{divfreeinterp_210}). To rectify this, the authors shift each patch's $\psi_k$ by a constant $b_k$ such that $\psi_k + b_k \approx \psi_l + b_l$ for every patch $\Omega_l$ that overlaps with $\Omega_k$ (these constants $\{b_1, b_2, \dots, b_M\}$ need to be computed). Let $\tilde{\psi}_k$ denote a scaled and corrected \emph{local} potential function. Then, ${\tilde{\psi}(\bx) = \sum\limits_{k=1}^{M} w_k(\bx) \psi_k(\bx)}$ is the \emph{global} blended potential function. $\bL$ is then applied as follows to get a global PoU divergence-free approximant $\tilde{\mathbf{s}}_{_{\text{POU}}}$,
+\begin{align}
+\tilde{\mathbf{s}}^{_{\text{div}}}_{_{\text{POU}}}(\bx) \coloneqq \sum\limits_{k=1}^{M} \bL \left(w_k(\bx) \tilde{\psi}_k(\bx)\right) = \sum\limits_{k=1}^{M} w_k(\bx) \bs_k^{_{\text{div}}}(\bx) + \sum\limits_{k=1}^{M} \tilde{\psi}_k(\bx) \bL(w_k(\bx)). \label{divfreelocalpou}
+\end{align}
+%
+The primary mathematical difficulty with extending this approach to 3D lies in~\eqref{divfreeinterp_210}. In 3D, the potential function associated with a divergence-free vector field is a vector field (this is due to the definition of the curl operator in 2D vs in 3D) that is unique up to an additive gradient of a harmonic scalar function. This disallows the key trick of this paper where only the difference between two potential functions' additive constants were accounted for in the overlapping regions.
+
+{\bf Part c:} \citep{drake2021partition} solved the issue of $\bspou$ not being divergence-free. The main remaining difficulty is extending the approach to 3D problems. We derive a potential way to use machine learning to address this. The key idea is to approximate the vector-valued potential functions on each patch using a neural network. Let $\nn: \R^{3} \rightarrow \R^{3}$ denote a standard multilayer perceptron (MLP) neural network using some nonlinear activation function. We assume we already have the local divergence-free interpolants; $\bs_k^{_{\text{div}}}$ on the $k^{\text{th}}$ patch. Additionally, we use a different neural network on each patch denoted with $\nn_k$. We rewrite~\eqref{divfreelocalpou} as follows in this approach,
+\begin{align}
+\hat{\mathbf{s}}^{_{\text{div}}}_{_{\text{POU}}}(\bx) \coloneqq \sum\limits_{k=1}^{M} w_k(\bx) \bs_k^{_{\text{div}}}(\bx) + \sum\limits_{k=1}^{M} \nn_k(\bx) \bL(w_k(\bx)). \label{divfreelocalpou_nn}
+\end{align}
+Notice that we do not shift the networks $\nn_k$ yet for them to agree in the overlapping regions. It is not trivial nor cheap to find the gradient of the harmonic scalar function associated with $\nn_k$. Instead, we enforce that $\nn_k$ and $\nn_j$ for two patches $\Omega_k \cap \Omega_j \neq \emptyset$ (for an overlapping region of two patches) be equal to each other through a soft constraint. Let $\I_i$ denote the indices of the patches the point $\bx_i$ belongs to. Let $e_1$ be this loss function as follows,
+\begin{align}
+e_1 = \sum\limits_{i=1}^{N} \left\| \frac{1}{|\I_i|} \sum\limits_{k \in \I_i} \nn_k(\bx_i) \right\|_2.
+\end{align}
+For a given point, the expression inside the first sum goes to its minimum when all the neural networks have the same value, i.e. when all potential functions agree in the overlapping regions. Of course, this is not sufficient to train the networks since nothing is informing them about $\bof$. We use a second (supervised) loss function,
+\begin{align}
+e_2 = \sum\limits_{i=1}^{N} \left\| \hat{\mathbf{s}}^{_{\text{div}}}_{_{\text{POU}}}(\bx_i) - \bof(\bx_i) \right\|_2.
+\end{align}
+The total loss $\mathbf{e} = e_1 + e_2$ is then minimized using an off-the-shelf gradient based optimizer (eg: Adam, SGD, LBFGS). $\hat{\mathbf{s}}^{_{\text{div}}}_{_{\text{POU}}}$ can therefore overcome the limitation of the method in~\citep{drake2021partition} by way of machine learning. Additionally, since it is an extension of the~\citep{drake2021partition} method, it does not suffer from the problem in {\bf Part a}. $\hat{\mathbf{s}}^{_{\text{div}}}_{_{\text{POU}}}$ is a divergence-free approximant arising from the PoU blended vector potential function in $\R^3$.
+
+{\bf Computational efficiency:} We can take certain implementation steps to compute the loss function efficiently at each training iteration. The weight functions $w_k$ are usually computed prior to training since they are not trainable. $\{\I_1, \I_2, \dots, \I_N\}$ can similarly be computed beforehand, with which we evaluate \emph{only} the $\nn_k$ and $\bs_{k}^{_{\text{div}}}$ for $k \in \I_i$ for every $\bx_i$. Finally, we can avoid computing $e_1$ on points that belong to a single patch.
+%
+\pagebreak
 
 \end{questions}
 
