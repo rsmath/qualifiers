@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  20 OCT 2025 00:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  20 OCT 2025 00:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1186,7 +1186,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [22]
 This exam contains 5 questions with 7 parts, 0 subparts, and 0 subsubparts.
-runsystem(latexminted cleantemp  --timestamp 20251020000214 ABAD9D55E66734B248D
+runsystem(latexminted cleantemp  --timestamp 20251020000651 ABAD9D55E66734B248D
 3AE60F45DADA3)...disabled (restricted).
 
 (RamanshQual.aux)
@@ -1198,7 +1198,7 @@ L3 programming layer <2025-09-02>
 Here is how much of TeX's memory you used:
  25051 strings out of 468131
  519649 string characters out of 5437308
- 1044948 words of memory out of 5000000
+ 1044949 words of memory out of 5000000
  53266 multiletter control sequences out of 15000+600000
  639617 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1223,7 +1223,7 @@ cmti12.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
 uler/eufm10.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/amsfon
 ts/symbols/msam10.pfb></home/ramansh/.miktex/texmfs/install/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb>
-Output written on /home/ramansh/qualifiers/RamanshQual.pdf (22 pages, 304228 by
+Output written on /home/ramansh/qualifiers/RamanshQual.pdf (22 pages, 304231 by
 tes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
